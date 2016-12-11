@@ -31,11 +31,11 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 
 ### ΛΑ-3
-Ο χρήστης πρέπει να μπορεί να κάνει δημιουργία μιας προσωπικής εκδήλωσης. (Create Personal Event)
+Ο χρήστης πρέπει να μπορεί να κάνει δημιουργία μιας ιδιωτικής εκδήλωσης. (Create Personal Event)
 
 **Περιγραφή**
 
-Ο χρήστης της πλατφόρμας πρέπει να μπορεί να κάνει δημιουργία μιας προσωπικής (ιδιωτικής) εκδήλωσης συμπληρώνοντας όλα τα πεδία της φόρμας. Μία ιδιωτική εκδήλωση πρέπει να αποτελείται από ένα τίτλο, μια μικρή περιγραφή, το έιδος του συμβάντος, την τοποθεσία και την ημερομηνία που θα λάβει χώρα.  
+Ο χρήστης της πλατφόρμας πρέπει να μπορεί να κάνει δημιουργία μιας ιδιωτικής εκδήλωσης συμπληρώνοντας όλα τα πεδία της φόρμας. Μία ιδιωτική εκδήλωση πρέπει να αποτελείται από ένα τίτλο, μια μικρή περιγραφή, το έιδος του συμβάντος, την τοποθεσία και την ημερομηνία που θα λάβει χώρα.  
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
@@ -59,11 +59,11 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 
 ### ΛΑ-5
-Ο χρήστης πρέπει να μπορεί να κάνει διαγραφή ενός προσωπικού συμβάντος. (Delete Personal Event)
+Ο χρήστης πρέπει να μπορεί να κάνει διαγραφή μιας ιδιωτικής εκδήλωσης. (Delete Personal Event)
 
 **Περιγραφή**
 
-Ο χρήστης της πλατφόρμας πρέπει να μπορεί να διαγράψει ένα προσωπικό συμβάν που έχει δημιουργήσει ο ίδιος σε περίπτωση που το επιθυμεί.
+Ο χρήστης της πλατφόρμας πρέπει να μπορεί να διαγράψει μια προσωπική εκδήλωση που έχει δημιουργήσει ο ίδιος σε περίπτωση που το επιθυμεί.
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
@@ -73,11 +73,11 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 
 ### ΛΑ-6
-Ο χρήστης πρέπει να μπορεί να κάνει αναζήτηση ενός συμβάντος. (Search Event)
+Ο χρήστης πρέπει να μπορεί να κάνει αναζήτηση μιας εκδήλωσης. (Search Event)
 
 **Περιγραφή**
 
-Ο χρήστης της πλατφόρμας πρέπει να μπορεί να κάνει αναζήτηση ενός συμβάντος (είτε από την λίστα με τα συμβάντα στα οποία έχει δηλώσει οτι θα παρεβρεθεί(Μy Events /Attending) είτε από την λίστα με τα συμβάντα τα οποία έχει δημιουργήσει ο ίδιος (My Events / Created) με το όνομα ,την τοποθεσία,την ημερομηνία ή με τον τύπο του.  
+Ο χρήστης της πλατφόρμας πρέπει να μπορεί να κάνει αναζήτηση μιας εκδήλωσης είτε από την λίστα με τις εκδηλώσεις στις οποίες έχει δηλώσει οτι θα παρεβρεθεί (Μy Events /Attending) είτε από την λίστα με τις εκδηλώσεις τις οποίες έχει δημιουργήσει ο ίδιος (My Events / Created) /// είτε δημόσιες εκδηλώσεις που μπορεί να βάλει φίλτρα  με το όνομα, την τοποθεσία, την ημερομηνία ή με τον τύπο του.  
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
@@ -87,11 +87,11 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 
 ### ΛΑ-7
-Ο  επαγγελματίας χρήστης (Professional user) πρέπει να μπορεί να κάνει δημιουργία ενός δημόσιου συμβάντος. (Create Public Event)
+Ο  χρήστης που έχει δικαιώματα διοργανωτή (Organizer user // χρήστης διοργανωτής) πρέπει να μπορεί να κάνει δημιουργία μιας δημόσιας εκδήλωσης. (Create Public Event)
 
 **Περιγραφή**
 
-Ο επαγγελματίας χρήστης της πλατφόρμας πρέπει να μπορεί να κάνει δημιουργία ενός δήμοσιου συμβάντος το οποίο θα είναι διαθέσιμο για όλους τους χρήστες.
+Ο χρήστης διοργανωτής της πλατφόρμας πρέπει να μπορεί να κάνει δημιουργία μιας δημόσιας εκδήλωσης η οποία θα είναι διαθέσιμη για όλους τους χρήστες.
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
@@ -101,11 +101,11 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 
 ### ΛΑ-8
-Ο  επαγγελματίας χρήστης πρέπει να μπορεί να κάνει επεξεργασία ενός δημόσιου συμβάντος. (Manage Public Event)
+Ο   χρήστης διοργανωτής πρέπει να μπορεί να κάνει επεξεργασία μιας δημόσιας εκδήλωσης. (Manage Public Event)
 
 **Περιγραφή**
 
-Ο επαγγελματίας χρήστης της πλατφόρμας πρέπει να μπορεί να κάνει επεξεργασία των χαρακτηριστικών ενός δήμοσιου συμβάντος το οποίο έχει δημιουργήσει ο ίδιος.
+Ο χρήστης διοργανωτής της πλατφόρμας πρέπει να μπορεί να κάνει επεξεργασία των χαρακτηριστικών μιας δημόσιας εκδήλωσης την οποία έχει δημιουργήσει ο ίδιος.
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
@@ -114,11 +114,11 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 #### Ιστορίες Χρηστών
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 ### ΛΑ-9
-Ο  επαγγελματίας χρήστης πρέπει να μπορεί να κάνει διαγραφή ενός δημόσιου συμβάντος. (Delet Public Event)
+Ο  χρήστης διοργανωτής πρέπει να μπορεί να κάνει διαγραφή μιας δημόσιας εκδήλωσης. (Delet Public Event)
 
 **Περιγραφή**
 
-Ο επαγγελματίας χρήστης της πλατφόρμας μπορεί να κάνει διαγραφή ενός δήμοσιου συμβάντος το οποίο έχει δημιουργήσει ο ίδιος.
+Ο χρήστης διοργανωτής της πλατφόρμας μπορεί να κάνει διαγραφή μιας δημόσιας εκδήλωσης την οποία έχει δημιουργήσει ο ίδιος.
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
@@ -132,7 +132,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 
 **Περιγραφή**
 
-Οι χρήστες του συστήματος θα μπορούν να βλέπουν όλα τα διαθέσιμα δημόσια συμβάντα που έχουνε καταχωρηθεί στο σύστημα από επαγγελματίες χρήστες.
+Οι χρήστες του συστήματος θα μπορούν να βλέπουν όλα τα διαθέσιμα δημόσια συμβάντα που έχουνε καταχωρηθεί στο σύστημα από χρήστες διοργανωτές. ??????
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
@@ -142,11 +142,11 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 
 ### ΛΑ-11
-Ο χρήστης πρέπει να μπορεί να δηλώσει ότι θα παραβρεθεί σε κάποιο δημόσιο συμβάν. ( Αttend Public Event)
+Ο χρήστης πρέπει να μπορεί να δηλώσει ότι θα παραβρεθεί σε κάποια δημόσια εκδήλωση. ( Αttend Public Event)
 
 **Περιγραφή**
 
-Οι χρήστες του συστήματος θα μπορούν να δηλώσουν οτι θα παραβρεθούν σε κάποιο δήμοσιο συμβάν έτσι ώστε να μπορούν νά εχουν πρόσβαση στην σελίδα του συμβάντος και να βλέπουν όλες τις πληροφορίες του συμβάντος, άλλα άτομα που έχουνε δηλώσει οτι θα παραβρεθούν καθώς και ανακοινώσεις. 
+Οι χρήστες του συστήματος θα μπορούν να δηλώσουν οτι θα παραβρεθούν σε κάποια δημόσια εκδήλωση έτσι ώστε να μπορούν να έχουν πρόσβαση στην σελίδα της εκδήλωσης και να βλέπουν όλες τις πληροφορίες της εκδήλωσης, άλλα άτομα που έχουνε δηλώσει οτι θα παραβρεθούν καθώς και ανακοινώσεις. 
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
@@ -156,11 +156,11 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 
 ### ΛΑ-12
-Ο χρήστης πρέπει να μπορεί να αγοράσει εισιτήριο για ένα δήμoσιο συμβάν. (Buy Ticket for Public Event)
+Ο χρήστης πρέπει να μπορεί να αγοράσει εισιτήριο για μια δημόσια εκδήλωση. (Buy Ticket for Public Event)
 
 **Περιγραφή**
 
-Οι χρήστες του συστήματος θα μπορούν να αγοράσουν το εισητήριο ενός δήμοσιου συμβάντος για το οποίο έχουνε δηλώσει οτι θα παραβρεθούνε μέσα απο την σελίδα του συμβάντος.
+Οι χρήστες του συστήματος θα μπορούν να αγοράσουν το εισητήριο μιας δημόσιας εκδήλωσης για την οποία έχουνε δηλώσει οτι θα παραβρεθούνε μέσα απο την σελίδα της εκδήλωσης.
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
@@ -174,7 +174,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 
 **Περιγραφή**
 
-Οι χρήστες του συστήματος θα μπορούν να συμπληρώσουν μια αίτηση (φόρμα) με πληροφοριές όπως το έπαγγελμα τους , το όνομα της εταρείας για την οποία εργάζονται, πληροφορίες για τα έιδη των δημοσίων συμβάντων που θα θέλανε να καταχωρίσουν στο σύστημα καθώς και πληροφορίες για δημόσια συμβάντα που έχουνε δημιουργήσει στο παρελθόν.
+????Οι χρήστες του συστήματος θα μπορούν να συμπληρώσουν μια αίτηση (φόρμα) με πληροφοριές όπως το έπαγγελμα τους , το όνομα της εταρείας για την οποία εργάζονται, πληροφορίες για τα έιδη των δημοσίων συμβάντων που θα θέλανε να καταχωρίσουν στο σύστημα καθώς και πληροφορίες για δημόσια συμβάντα που έχουνε δημιουργήσει στο παρελθόν.
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
@@ -188,7 +188,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 
 **Περιγραφή**
 
-Οι χρήστες της πλατφόρμας θα μπορούν να συμπληρώσουν μία αίτηση(φόρμα) με πληροφορίες όπως την διεύθυνση του διαθέσιμου χώρου πού έχουν να προσφέρουν, συμβάντα που έχουν λάβει χώρα στον συγκεκριμένο χώρο στο παρελθόν καθώς και κάποιες ενδεικτικες φωτογραφίες από τον χώρο.
+Οι χρήστες της πλατφόρμας θα μπορούν να συμπληρώσουν μία αίτηση (φόρμα) με πληροφορίες όπως την διεύθυνση του διαθέσιμου χώρου που έχουν να προσφέρουν, -----συμβάντα που έχουν λάβει χώρα στον συγκεκριμένο χώρο στο παρελθόν---- στοιχεία επικοινωνίας, κάποιες ενδεικτικες φωτογραφίες από τον χώρο, για το τι είδος εκδηλώσεων προσφέρεται ο χώρος καθώς και κάποια ενδεικτική τιμή.
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
