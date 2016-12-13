@@ -21,7 +21,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 
 **Περιγραφή**
 
-Κάθε καινούργιος χρήστης της υπηρεσίας πρέπει να κάνει εγγραφή στην πλατφόρμα επιλέγοντας ένα προσωπικό όνομα, κωδικό χρήστη και συμπληρώνοντας μια φόρμα με προσωπικά στοιχεία (Ονοματεπώνυμο , ηλικία, τοποθεσία, ενδιαφέροντα, Email ΕΛΕΓΧΟΣ ΚΑΙ ΓΙΑ ΣΥΝΟΛΙΚΑ). Μετα το πέρας της εγγραφής ένα email αποστέλλεται στον καινούργιο χρήστη με ένα σύνδεσμο για την επιβεβαίωση των στοιχείων του. Η εγγραφή ολοκληρώνεται όταν ο καινούργιος χρήστης ανοίξει και επισκεφθεί τον σύνδεσμο του email επιβεβαίωσης.
+Κάθε καινούργιος χρήστης της υπηρεσίας πρέπει να κάνει εγγραφή στην πλατφόρμα επιλέγοντας ένα προσωπικό όνομα, κωδικό χρήστη και συμπληρώνοντας μια φόρμα με προσωπικά στοιχεία (Ονοματεπώνυμο, τοποθεσία, Email). Μετα το πέρας της εγγραφής ένα email αποστέλλεται στον καινούργιο χρήστη με ένα σύνδεσμο για την επιβεβαίωση των στοιχείων του. Η εγγραφή ολοκληρώνεται όταν ο καινούργιος χρήστης ανοίξει και επισκεφθεί τον σύνδεσμο του email επιβεβαίωσης.
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
@@ -31,11 +31,11 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 
 ### ΛΑ-3
-Ο χρήστης πρέπει να μπορεί να κάνει δημιουργία μιας ιδιωτικής εκδήλωσης. (Create Personal Event)
+Ο χρήστης πρέπει να μπορεί να κάνει δημιουργία μιας ιδιωτικής εκδήλωσης. (Create Private Event)
 
 **Περιγραφή**
 
-Ο χρήστης της πλατφόρμας πρέπει να μπορεί να κάνει δημιουργία μιας ιδιωτικής εκδήλωσης συμπληρώνοντας όλα τα πεδία της φόρμας. Μία ιδιωτική εκδήλωση πρέπει να αποτελείται από ένα τίτλο, μια μικρή περιγραφή, το έιδος του συμβάντος, την τοποθεσία και την ημερομηνία που θα λάβει χώρα.  
+Ο χρήστης της πλατφόρμας πρέπει να μπορεί να κάνει δημιουργία μιας ιδιωτικής εκδήλωσης συμπληρώνοντας όλα τα πεδία της φόρμας. Μία ιδιωτική εκδήλωση πρέπει να αποτελείται από ένα τίτλο, μια μικρή περιγραφή, το είδος της εκδήλωσης, την τοποθεσία και την ημερομηνία που θα λάβει χώρα.  
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
@@ -45,7 +45,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 
 ### ΛΑ-4
-Ο χρήστης πρέπει να μπορεί να κάνει επεξεργασία μιας ιδιωτικής εκδήλωσης. (Manage Personal Event)
+Ο χρήστης πρέπει να μπορεί να κάνει επεξεργασία μιας ιδιωτικής εκδήλωσης. (Manage Private Event)
 
 **Περιγραφή**
 
@@ -59,11 +59,11 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 
 ### ΛΑ-5
-Ο χρήστης πρέπει να μπορεί να κάνει διαγραφή μιας ιδιωτικής εκδήλωσης. (Delete Personal Event)
+Ο χρήστης πρέπει να μπορεί να κάνει διαγραφή μιας ιδιωτικής εκδήλωσης. (Delete Private Event)
 
 **Περιγραφή**
 
-Ο χρήστης της πλατφόρμας πρέπει να μπορεί να διαγράψει μια προσωπική εκδήλωση που έχει δημιουργήσει ο ίδιος σε περίπτωση που το επιθυμεί.
+Ο χρήστης της πλατφόρμας πρέπει να μπορεί να διαγράψει μια ιδιωτική εκδήλωση που έχει δημιουργήσει ο ίδιος σε περίπτωση που το επιθυμεί.
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
@@ -77,7 +77,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 
 **Περιγραφή**
 
-Ο χρήστης της πλατφόρμας πρέπει να μπορεί να κάνει αναζήτηση μιας εκδήλωσης είτε από την λίστα με τις εκδηλώσεις στις οποίες έχει δηλώσει οτι θα παρεβρεθεί (Μy Events /Attending) είτε από την λίστα με τις εκδηλώσεις τις οποίες έχει δημιουργήσει ο ίδιος (My Events / Created) /// είτε δημόσιες εκδηλώσεις που μπορεί να βάλει φίλτρα  με το όνομα, την τοποθεσία, την ημερομηνία ή με τον τύπο του.  
+Ο χρήστης της πλατφόρμας πρέπει να μπορεί να κάνει αναζήτηση μιας εκδήλωσης είτε από την λίστα με τις εκδηλώσεις στις οποίες έχει δηλώσει οτι θα παρεβρεθεί (Μy Events /Attending) είτε από την λίστα με τις εκδηλώσεις τις οποίες έχει δημιουργήσει ο ίδιος (My Events / Created)
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
@@ -87,7 +87,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 
 ### ΛΑ-7
-Ο  χρήστης που έχει δικαιώματα διοργανωτή (Organizer user // χρήστης διοργανωτής) πρέπει να μπορεί να κάνει δημιουργία μιας δημόσιας εκδήλωσης. (Create Public Event)
+Ο  χρήστης που έχει δικαιώματα διοργανωτή (χρήστης διοργανωτής) πρέπει να μπορεί να κάνει δημιουργία μιας δημόσιας εκδήλωσης. (Create Public Event)
 
 **Περιγραφή**
 
@@ -128,11 +128,11 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 
 ### ΛΑ-10
-Το σύστημα πρέπει να μπορεί να εμφανίζει όλα τα δήμοσια συμβάντα στους χρήστες. (Public Events)
+Το σύστημα πρέπει να μπορεί να εμφανίζει όλες τις δημόσιες εκδηλώσεις στους χρήστες. (Public Events)
 
 **Περιγραφή**
 
-Οι χρήστες του συστήματος θα μπορούν να βλέπουν όλα τα διαθέσιμα δημόσια συμβάντα που έχουνε καταχωρηθεί στο σύστημα από χρήστες διοργανωτές. ??????
+Οι χρήστες του συστήματος θα μπορούν να βλέπουν όλες τις δημόσιες εκδηλώσεις που έχουνε καταχωρηθεί στο σύστημα από χρήστες διοργανωτές.
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
@@ -170,11 +170,11 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 
 ### ΛΑ-13
-Ο χρήστης πρέπει να μπορεί να κάνει αίτηση για να γίνει επαγγελματίας χρήστης. (Apply for Professional User)
+Ο χρήστης πρέπει να μπορεί να κάνει αίτηση για να γίνει χρήστης διοργανωτής. (Apply for Organizer User)
 
 **Περιγραφή**
 
-????Οι χρήστες του συστήματος θα μπορούν να συμπληρώσουν μια αίτηση (φόρμα) με πληροφοριές όπως το έπαγγελμα τους , το όνομα της εταρείας για την οποία εργάζονται, πληροφορίες για τα έιδη των δημοσίων συμβάντων που θα θέλανε να καταχωρίσουν στο σύστημα καθώς και πληροφορίες για δημόσια συμβάντα που έχουνε δημιουργήσει στο παρελθόν.
+Οι χρήστες του συστήματος θα μπορούν να συμπληρώσουν μια αίτηση (φόρμα) με πληροφορίες όπως το έπαγγελμα τους , πληροφορίες για τα είδη των δημοσίων εκδηλώσεων που θα θέλανε να καταχωρίσουν στο σύστημα.
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
@@ -184,11 +184,11 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 
 ### ΛΑ-14
-Ο χρήστης πρέπει να μπορεί να κάνει αίτηση για να γίνει πάροχος τοποθεσίας. (Apply for Space Provider)
+Ο χρήστης πρέπει να μπορεί να κάνει αίτηση για να γίνει πάροχος τοποθεσίας. (Apply for Host)
 
 **Περιγραφή**
 
-Οι χρήστες της πλατφόρμας θα μπορούν να συμπληρώσουν μία αίτηση (φόρμα) με πληροφορίες όπως την διεύθυνση του διαθέσιμου χώρου που έχουν να προσφέρουν, -----συμβάντα που έχουν λάβει χώρα στον συγκεκριμένο χώρο στο παρελθόν---- στοιχεία επικοινωνίας, κάποιες ενδεικτικες φωτογραφίες από τον χώρο, για το τι είδος εκδηλώσεων προσφέρεται ο χώρος καθώς και ενδεικτική τιμή ενοικίασης μαζί με τις παροχές.
+Οι χρήστες της πλατφόρμας θα μπορούν να συμπληρώσουν μία αίτηση (φόρμα) με πληροφορίες όπως την διεύθυνση του διαθέσιμου χώρου που έχουν να προσφέρουν, στοιχεία επικοινωνίας, κάποιες ενδεικτικες φωτογραφίες από τον χώρο, για το τι είδος εκδηλώσεων προσφέρεται ο χώρος καθώς και ενδεικτική τιμή ενοικίασης μαζί με τις παροχές.
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
@@ -198,11 +198,11 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 
 ### ΛΑ-15
-Ο πάροχος τοποθεσίας θα πρέπει να μπορεί να κάνει καταχώρηση του χώρου του στην πλατφόρμα. (Insert space???) τι διαφορα εχει με το πανω τελικα;
+Ο πάροχος τοποθεσίας θα πρέπει να μπορεί να κάνει καταχώρηση του χώρου ή των χώρων του στην πλατφόρμα. (Insert Location) 
 
 **Περιγραφή**
 
-Ο πάροχος τοποθεσίας θα μπορεί να κάνει καταχώρηση του χώρου του στην πλατφόρμα σημπληρώνοντας μια ειδική φόρμα με πληροφοίες όπως την διέuθυνση του χώρου, το όνομα του χώρου , τα διαθέσιμα έιδη συμβάντων που μπορούν να λάβουν χώρα στον χώρο αυτό, μια ενδεικτική τιμή ενοικίασης, παροχές του χώρου.
+Ο πάροχος τοποθεσίας θα μπορεί να κάνει καταχώρηση του χώρου του στην πλατφόρμα σημπληρώνοντας μια ειδική φόρμα με πληροφορίες όπως την διεύθυνση του χώρου, το όνομα του χώρου , τα διαθέσιμα έιδη εκδηλώσεων που μπορούν να λάβουν χώρα στον χώρο αυτό, μια ενδεικτική τιμή ενοικίασης, παροχές του χώρου.
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
@@ -212,11 +212,11 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 
 ### ΛΑ-16
-Τό σύστημα θα πρέπει να μπορεί να προτείνει χώρους στους χρήστες του συστήματος. (Suggest Available Spaces)
+Το σύστημα θα πρέπει να μπορεί να προτείνει χώρους στους χρήστες του συστήματος. (Suggest Available Locations)
 
 **Περιγραφή**
 
-Κατα την δημιουργία ενός συμβάντος το σύστημα θα πρέπει να μπορεί να προτείνει στον χρήστη διαθέσιμους χώρους που ταιριάζουνε με το είδος της εκδήλωσης ---και την τοποθεσία--- ->πιθανως 2 ΜΛΑ σε μια<-- που δημιουργεί εκείνη την ώρα.
+Κατα την δημιουργία μιας εκδήλωσης το σύστημα θα πρέπει να μπορεί να προτείνει στον χρήστη διαθέσιμους χώρους.
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
@@ -226,7 +226,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 
 ### ΛΑ-17
-Ο διαχειριστής του συστήματος θα πρέπει να μπορεί να επεξεργαστεί όλα τα συμβάντα της πλατφόρμας. (Admin user permissions)
+Ο διαχειριστής του συστήματος θα πρέπει να μπορεί να επεξεργαστεί όλες τις εκδηλώσεις της πλατφόρμας. (Admin user permissions)
 
 **Περιγραφή**
 
@@ -244,7 +244,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 
 **Περιγραφή**
 
-Ο διαχειριστής του συστήματος θα πρέπει να μπορεί να εγκρίνει τις αιτήσεις των χρηστών για να γίνουνε είτε  χρήστες διοργανωτές (Orgnaizers users) είτε Πάροχοι χώρου (Space providers).
+Ο διαχειριστής του συστήματος θα πρέπει να μπορεί να εγκρίνει τις αιτήσεις των χρηστών για να γίνουνε είτε  χρήστες διοργανωτές (Orgnaizers users) είτε Πάροχοι χώρου (Hosts).
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
@@ -258,7 +258,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 
 **Περιγραφή**
 
-Όλοι οι χρήστες του συστήματος θα πρέπει να μπορουν να επεξεργαστούν τις πληροφορίες του προσωπικού τους προφιλ όπως το όνομα και το email. mono??????? 
+Όλοι οι χρήστες του συστήματος θα πρέπει να μπορουν να επεξεργαστούν τις πληροφορίες του προσωπικού τους προφιλ όπως το όνομα, την τοποθεσία και το email.  
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
@@ -324,11 +324,11 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 
 ### ΛΑ-24
-Ο χρήστης πρέπει να μπορεί να κάνει κριτική σε εκδήλωση. -> σε χώρο όχι; αν ναι και παραπομπη της εκδήλωσης (Give Feedback)
+Ο χρήστης πρέπει να μπορεί να κάνει κριτική σε εκδήλωση. (Give Event Feedback)
 
 **Περιγραφή**
 
-Ο χρήστης μετά το πέρας κάποιας εκδήλωσης θα μπορεί να κάνει κριτκή και να βαθμολογεί μια εκδήλωση στην οποία παρευρέθηκε ???σε χώρο??? που θα υπάρχει στην σελίδα του συμβάντος.
+Ο χρήστης μετά το πέρας κάποιας εκδήλωσης θα μπορεί να κάνει κριτκή και να βαθμολογεί μια εκδήλωση στην οποία παρευρέθηκε ? που θα υπάρχει στην σελίδα της εκδήλωσης.
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
@@ -338,7 +338,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 
 ### ΛΑ-25
-Το σύστημα θα πρέπει να μπορεί να δείχνει στον χρήστη εκδηλώσεις στις οποίςες έχει παρευρεθεί στο παρελθόν. ή δημιουργήσει;;;;;;;;;; (Show Archived Events)
+Το σύστημα θα πρέπει να μπορεί να δείχνει στον χρήστη εκδηλώσεις στις οποίες έχει παρευρεθεί στο παρελθόν. (Show Archived Events)
 
 **Περιγραφή**
 
@@ -366,11 +366,11 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 
 ### ΛΑ-27
-Το σύστημα πρέπει να ενημερώνει τους χρήστες για αλλαγές σε κάποιο εκδήλωση. (Notify about changes)
+Το σύστημα πρέπει να ενημερώνει τους χρήστες για αλλαγές σε κάποια εκδήλωση. (Notify about changes)
 
 **Περιγραφή**
 
-Το σύστημα πρέπει να ενημερώνει τους χρήστες με email για αλλαγές που γίνονται σε κάποιο απο τα στοιχεία/χαρακτηριστικά μιας εκδήλωσης για την οποία έχουνε δηλώσει οτι θα παρευρεθούνε.
+Το σύστημα πρέπει να ενημερώνει τους χρήστες με email για αλλαγές που γίνονται σε κάποιο από τα στοιχεία/χαρακτηριστικά μιας εκδήλωσης για την οποία έχουνε δηλώσει οτι θα παρευρεθούνε.
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
@@ -382,7 +382,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 
 
 ### ΛΑ-28
-Ο χρήστης πρέπει να μπορεί να επιλέξει αν επιθυμεί να αποκτήσει δικαιώματα διοργανωτή ή παρόχου χώρου. (Expand rights)
+ ???? σβησιμο Ο χρήστης πρέπει να μπορεί να επιλέξει να αποκτήσει δικαιώματα διοργανωτή ή παρόχου χώρου ή και τα δύο. (Expand rights)
 
 **Περιγραφή**
 
@@ -401,7 +401,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 
 **Περιγραφή**
 
-Ο χρήστης της πλατφόρμας πρέπει να μπορεί να αναζητεί αν το επιθυμεί να ψάξει άλλον χρήστη με βάση το όνομα, την τοποθεσια ή το είδος εκδηλώσεων που προτιμάνε. 
+Ο χρήστης της πλατφόρμας πρέπει να μπορεί να αναζητεί αν το επιθυμεί να ψάξει άλλον χρήστη με βάση το όνομα, την τοποθεσία ή το είδος εκδηλώσεων που προτιμάνε. 
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
@@ -455,81 +455,6 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 
 
 ### ΛΑ-33
-Ο χρήστης πρέπει να μπορεί να δημιουργεί μια ομάδα ατόμων (Create Group)
-
-**Περιγραφή**
-
-Ο χρήστης της πλατφόρμας πρέπει να μπορεί να δημιουργεί μια ομάδα ατόμων προσθέτοντας φίλους που έχει στη λίστα των φίλων του δίνοντας όνομα, περιγραφή, τοποθεσία και ποιες εκδηλώσεις ενδιαφέρουν το γκρουπ. 
-
-**User Priority : (5/5)**
-**Technical Priority : (5/5)**
-**Stability: (5/5)**
-
-#### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
-
-
-### ΛΑ-34
-Ο χρήστης πρέπει να μπορεί να ορίζει διαχειριστές του γκρουπ που έχει δημιουργήσει (Set Admin)
-
-**Περιγραφή**
-
-Ο χρήστης της πλατφόρμας που έχει δημιουργήσει ένα γκρουπ πρέπει να μπορεί αναβαθμίζει σε διαχειριστές απλά μέλη του γκρουπ. 
-
-**User Priority : (5/5)**
-**Technical Priority : (5/5)**
-**Stability: (5/5)**
-
-#### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
-
-
-### ΛΑ-35
-Ο χρήστης-διαχειριστής γκρουπ πρέπει να μπορεί να αλλάζει στοιχεία του γκρουπ  (Edit Group)
-
-**Περιγραφή**
-
-Ο χρήστης διαχειριστής του γκρουπ πρέπει να μπορεί να μεταβάλλει τα στοιχεία της ομάδας καθώς και να αφαιρέσει και κάποιο μέλος αν το επιθυμεί. 
-
-**User Priority : (5/5)**
-**Technical Priority : (5/5)**
-**Stability: (5/5)**
-
-#### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
-
-
-### ΛΑ-36
-Ο χρήστης διαχειριστής του γκρουπ πρέπει να μπορεί να δηλώνει συμμετοχή σε κάποια εκδήλωση υποννοώντας ότι θα συμπεριληφθούν μέλη του γκρουπ (Group Attend)
-
-**Περιγραφή**
-
-Ο χρήστης διαχειριστής πρέπει να μπορεί να δηλώνει οτι θα παρεβρεθούν τα μέλη του γκρουπ σε μια εκδήλωση αναφέροντας όμως τον αριθμό των μελών που όντως μπορούν να παρεβρεθούν. - no happy me max number members και να δηλωσει μεγαλυτερο  
-
-**User Priority : (5/5)**
-**Technical Priority : (5/5)**
-**Stability: (5/5)**
-
-#### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
-
-
-### ΛΑ-37
-Ο χρήστης διαχειριστής πρέπει να μπορεί να δημιουργήσει μια ιδιωτική εκδήλωση  (Create Group Event)
-
-**Περιγραφή**
-
-Ο χρήστης διαχειριστής πρέπει να μπορεί να δημιουργήσει μια ιδιωτική εκδήλωση και να τη διαχειρίζονται οι διαχειριστες του γκρουπ όπως μια ιδιωτική εκδήλωση απλού χρήστη. 
-
-**User Priority : (5/5)**
-**Technical Priority : (5/5)**
-**Stability: (5/5)**
-
-#### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
-
-
-### ΛΑ-38
 Ο χρήστης πρέπει να μπορεί να ακολουθεί συγκεκριμένους χώρους για να ενημερώνεται για τις δημόσιες εκδηλώσεις σε αυτόν (Add Favourite Location)
 
 **Περιγραφή**
@@ -544,12 +469,12 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 
 
-### ΛΑ-39
+### ΛΑ-34
 Ο χρήστης πάροχος χώρου πρέπει να μπορεί να εγκρίνει τις εκδηλώσεις που γίνονται στον χώρο του (Approve Event)
 
 **Περιγραφή**
 
-Ο χρήστης πάροχος του χώρου πρέπει να μπορεί να εγκρίνει όταν ένας χρήστης ή διοργανωτής ή γκρουπ δημιουργεί μια εκδήλωση και δηλώνει ότι θα γίνει στον χώρο του. Η εκδήλωση δεν είναι έγκυρη και δεν μπορεί να προστεθούν ή να την δουν άλλοι χρήστες παρά μόνο όταν εγκριθεί από τον πάροχο. unhappy αν δεν υπαρχει παροχος και ειναι νεος χωρος ή μη δηλωμενος 
+Ο χρήστης πάροχος του χώρου πρέπει να μπορεί να εγκρίνει όταν ένας χρήστης ή διοργανωτής δημιουργεί μια εκδήλωση και δηλώνει ότι θα γίνει στον χώρο του. Η εκδήλωση δεν είναι έγκυρη και δεν μπορεί να προστεθούν ή να την δουν άλλοι χρήστες παρά μόνο όταν εγκριθεί από τον πάροχο.
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
@@ -559,33 +484,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 
 
-### ΛΑ-40
-Ο χρήστης που έχει δηλώσει συμμετοχή σε μια εκδήλωση πρέπει να μπορεί να δηλώνει ότι αναζητεί παρέα για να συμμετέχουν μαζί (Looking for Company) -πιο πιασαρικο πρεπει να το αλλαξουμε
 
-**Περιγραφή**
-
-Ο χρήστης με μια επιλογή μέσα από την εκδήλωση μπορεί να δηλώνει ότι είναι διαθέσιμος αν ενδιαφέρεται κάποιος να πάνε μαζί στην εκδήλωση αυτή.
-
-**User Priority : (5/5)**
-**Technical Priority : (5/5)**
-**Stability: (5/5)**
-
-#### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
-
-### ΛΑ-41
-Ο χρήστης πρέπει να μπορεί να αναζητήσει άλλους χρήστες ή γκρουπ που έχουν δηλώσει ότι ψάχνουν παρέα για να πάνε σε κάποια εκδήλωση (Search Company)
-
-**Περιγραφή**
-
-Ο χρήστης μπορεί να αναζητήσει για συγκεκριμένο χώρο, ή χρόνο, ή θέμα ή συνδιασμό αυτών άτομα που έχουν δηλώσει ότι ψάχνουν παρέα για να πάνε σε συγκεκριμένη εκδήλωση. Από τη στιγμή που τους βρίσκει μπορεί να έρθει σε επικοινωνία μαζί τους ακόμα και αν δεν είναι σε φίλοι (τσατ)
-
-**User Priority : (5/5)**
-**Technical Priority : (5/5)**
-**Stability: (5/5)**
-
-#### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 
 
 
