@@ -9,26 +9,26 @@
 
 Κάθε χρήστης, ανεξάρτητα από τον ρόλο του στην πλατφόρμα, πρέπει να κάνει είσοδο στην υπηρεσία με ένα όνομα χρήστη (username) και ένα κωδικό χρήστη (password). Το όνομα και κωδικός χρήστη επιλέγονται απο τον εκάστοτε χρήστη κατα την εγγραφή του στην πλατφόρμα.
 
-**User Priority : (5/5)**
+**User Priority : (5/5)** 
 **Technical Priority : (5/5)**
 **Stability: (5/5)**
 
 #### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+[Login](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/Login.feature)
 
 ### ΛΑ-2
 Ο χρήστης πρέπει να μπορεί να κάνει εγγραφή στην πλατφόρμα. (Sign Up)
 
 **Περιγραφή**
 
-Κάθε καινούργιος χρήστης της υπηρεσίας πρέπει να κάνει εγγραφή στην πλατφόρμα επιλέγοντας ένα προσωπικό όνομα, κωδικό χρήστη και συμπληρώνοντας μια φόρμα με προσωπικά στοιχεία (Ονοματεπώνυμο, τοποθεσία, Email). Μετα το πέρας της εγγραφής ένα email αποστέλλεται στον καινούργιο χρήστη με ένα σύνδεσμο για την επιβεβαίωση των στοιχείων του. Η εγγραφή ολοκληρώνεται όταν ο καινούργιος χρήστης ανοίξει και επισκεφθεί τον σύνδεσμο του email επιβεβαίωσης.
+Κάθε καινούργιος χρήστης της υπηρεσίας πρέπει να κάνει εγγραφή στην πλατφόρμα επιλέγοντας ένα προσωπικό όνομα (username), κωδικό χρήστη (password) και συμπληρώνοντας μια φόρμα με προσωπικά στοιχεία (Ονοματεπώνυμο, Επιθυμητη τοποθεσία, Email). Μετα το πέρας της εγγραφής ένα email αποστέλλεται στον καινούργιο χρήστη με ένα σύνδεσμο για την επιβεβαίωση των στοιχείων του. Η εγγραφή ολοκληρώνεται όταν ο καινούργιος χρήστης ανοίξει και επισκεφθεί τον σύνδεσμο του email επιβεβαίωσης.
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
 **Stability: (5/5)**
 
 #### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+[Sign Up](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/SignUp.feature)
 
 ### ΛΑ-3
 Ο χρήστης πρέπει να μπορεί να κάνει δημιουργία μιας ιδιωτικής εκδήλωσης. (Create Private Event)
@@ -42,7 +42,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 **Stability: (5/5)**
 
 #### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+[Create Private Event](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/CreatePrivateEvent.feature)
 
 ### ΛΑ-4
 Ο χρήστης πρέπει να μπορεί να κάνει επεξεργασία μιας ιδιωτικής εκδήλωσης. (Manage Private Event)
@@ -56,7 +56,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 **Stability: (5/5)**
 
 #### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+[Manage Private Event](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/ManagePrivateEvent.feature)
 
 ### ΛΑ-5
 Ο χρήστης πρέπει να μπορεί να κάνει διαγραφή μιας ιδιωτικής εκδήλωσης. (Delete Private Event)
@@ -70,24 +70,24 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 **Stability: (5/5)**
 
 #### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+[Delete Private Event](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/DeletePrivateEvent.feature)
 
 ### ΛΑ-6
 Ο χρήστης πρέπει να μπορεί να κάνει αναζήτηση μιας εκδήλωσης. (Search Event)
 
 **Περιγραφή**
 
-Ο χρήστης της πλατφόρμας πρέπει να μπορεί να κάνει αναζήτηση μιας εκδήλωσης είτε από την λίστα με τις εκδηλώσεις στις οποίες έχει δηλώσει οτι θα παρεβρεθεί (Μy Events /Attending) είτε από την λίστα με τις εκδηλώσεις τις οποίες έχει δημιουργήσει ο ίδιος (My Events / Created)
+Ο χρήστης της πλατφόρμας πρέπει να μπορεί να κάνει αναζήτηση μιας εκδήλωσης είτε από την λίστα με τις εκδηλώσεις στις οποίες έχει δηλώσει οτι θα παρεβρεθεί (Μy Events /Attending) είτε από την λίστα με τις εκδηλώσεις τις οποίες έχει δημιουργήσει ο ίδιος (My Events / Created).
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
 **Stability: (5/5)**
 
 #### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+[Search Event](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/SearchEvent.feature)
 
 ### ΛΑ-7
-Ο  χρήστης που έχει δικαιώματα διοργανωτή (χρήστης διοργανωτής) πρέπει να μπορεί να κάνει δημιουργία μιας δημόσιας εκδήλωσης. (Create Public Event)
+Ο χρήστης διοργανωτής πρέπει να μπορεί να κάνει δημιουργία μιας δημόσιας εκδήλωσης. (Create Public Event)
 
 **Περιγραφή**
 
@@ -98,10 +98,10 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 **Stability: (5/5)**
 
 #### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+[Create public event](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/CreatePublicEvent.feature)
 
 ### ΛΑ-8
-Ο   χρήστης διοργανωτής πρέπει να μπορεί να κάνει επεξεργασία μιας δημόσιας εκδήλωσης. (Manage Public Event)
+Ο χρήστης διοργανωτής πρέπει να μπορεί να κάνει επεξεργασία μιας δημόσιας εκδήλωσης. (Manage Public Event)
 
 **Περιγραφή**
 
@@ -112,9 +112,10 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 **Stability: (5/5)**
 
 #### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+[Manage public event](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/ManagePublicEvent.feature)
+
 ### ΛΑ-9
-Ο  χρήστης διοργανωτής πρέπει να μπορεί να κάνει διαγραφή μιας δημόσιας εκδήλωσης. (Delet Public Event)
+Ο  χρήστης διοργανωτής πρέπει να μπορεί να κάνει διαγραφή μιας δημόσιας εκδήλωσης. (Delete Public Event)
 
 **Περιγραφή**
 
@@ -125,10 +126,10 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 **Stability: (5/5)**
 
 #### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+[Delete public event](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/DeletePublicEvent.feature)
 
 ### ΛΑ-10
-Το σύστημα πρέπει να μπορεί να εμφανίζει όλες τις δημόσιες εκδηλώσεις στους χρήστες. (Public Events)
+Το σύστημα πρέπει να μπορεί να εμφανίζει όλες τις δημόσιες εκδηλώσεις στους χρήστες. (Available Public Events) ??
 
 **Περιγραφή**
 
@@ -153,7 +154,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 **Stability: (5/5)**
 
 #### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+[Attend Public Event](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/AttendPublicEvent.feature)
 
 ### ΛΑ-12
 Ο χρήστης πρέπει να μπορεί να αγοράσει εισιτήριο για μια δημόσια εκδήλωση. (Buy Ticket for Public Event)
@@ -167,7 +168,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 **Stability: (5/5)**
 
 #### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+[Buy ticket](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/BuyTicket.feature)
 
 ### ΛΑ-13
 Ο χρήστης πρέπει να μπορεί να κάνει αίτηση για να γίνει χρήστης διοργανωτής. (Apply for Organizer User)
@@ -181,24 +182,24 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 **Stability: (5/5)**
 
 #### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+[Apply for Organizer](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/ApplyforOrganizer.feature)
 
 ### ΛΑ-14
 Ο χρήστης πρέπει να μπορεί να κάνει αίτηση για να γίνει πάροχος τοποθεσίας. (Apply for Host)
 
 **Περιγραφή**
 
-Οι χρήστες της πλατφόρμας θα μπορούν να συμπληρώσουν μία αίτηση (φόρμα) με πληροφορίες όπως την διεύθυνση του διαθέσιμου χώρου που έχουν να προσφέρουν, στοιχεία επικοινωνίας, κάποιες ενδεικτικες φωτογραφίες από τον χώρο, για το τι είδος εκδηλώσεων προσφέρεται ο χώρος καθώς και ενδεικτική τιμή ενοικίασης μαζί με τις παροχές.
+Οι χρήστες της πλατφόρμας θα μπορούν να συμπληρώσουν μία αίτηση (φόρμα) με πληροφορίες όπως την διεύθυνση του διαθέσιμου χώρου που έχουν να προσφέρουν, στοιχεία επικοινωνίας, κάποιες ενδεικτικες φωτογραφίες από τον χώρο, για το τι είδος/τύπο εκδηλώσεων προσφέρεται ο χώρος καθώς και ενδεικτική τιμή ενοικίασης μαζί με τις παροχές.
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
 **Stability: (5/5)**
 
 #### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+[Αpply for Host](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/ApplyForHost.Feature)
 
 ### ΛΑ-15
-Ο πάροχος τοποθεσίας θα πρέπει να μπορεί να κάνει καταχώρηση του χώρου ή των χώρων του στην πλατφόρμα. (Insert Location) 
+Ο πάροχος τοποθεσίας θα πρέπει να μπορεί να κάνει καταχώρηση χώρου στην πλατφόρμα. (Insert Place) 
 
 **Περιγραφή**
 
@@ -209,10 +210,10 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 **Stability: (5/5)**
 
 #### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+[Insert Place](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/InsertPlace)
 
 ### ΛΑ-16
-Το σύστημα θα πρέπει να μπορεί να προτείνει χώρους στους χρήστες του συστήματος. (Suggest Available Locations)
+Το σύστημα θα πρέπει να μπορεί να προτείνει χώρους στους χρήστες του συστήματος. (Suggest Available Places) ??
 
 **Περιγραφή**
 
@@ -226,7 +227,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 
 ### ΛΑ-17
-Ο διαχειριστής του συστήματος θα πρέπει να μπορεί να επεξεργαστεί όλες τις εκδηλώσεις της πλατφόρμας. (Admin user permissions)
+Ο χρήστης διαχειριστής συστήματος θα πρέπει να μπορεί να επεξεργαστεί όλες τις εκδηλώσεις της πλατφόρμας. (Admin user permissions)
 
 **Περιγραφή**
 
@@ -237,21 +238,21 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 **Stability: (5/5)**
 
 #### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+[Admin User Permissions](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/AdminPermissions.feature)
 
 ### ΛΑ-18
-Ο διαχειριστής του συστήματος θα πρέπει να μπορεί να εγκρίνει τις αιτήσεις των χρηστών. (Approve users applications)
+Ο χρήσης διαχειριστής συστήματος θα πρέπει να μπορεί να εγκρίνει τις αιτήσεις των χρηστών. (Approve users applications)
 
 **Περιγραφή**
 
-Ο διαχειριστής του συστήματος θα πρέπει να μπορεί να εγκρίνει τις αιτήσεις των χρηστών για να γίνουνε είτε  χρήστες διοργανωτές (Orgnaizers users) είτε Πάροχοι χώρου (Hosts).
+Ο διαχειριστής του συστήματος θα πρέπει να μπορεί να εγκρίνει τις αιτήσεις των χρηστών για να γίνουν είτε  χρήστες διοργανωτές (Orgnaizers users) είτε πάροχοι χώρου (Hosts).
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
 **Stability: (5/5)**
 
 #### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+MISSING FEATURE
 
 ### ΛΑ-19
 Ο χρήστης πρέπει να μπορεί να επεξεργαστεί το προσωπικό του προφιλ. (Set Profile Settings)
@@ -265,7 +266,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 **Stability: (5/5)**
 
 #### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+[Set Profile Settigs](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/SetProfileSettings.feature)
 
 ### ΛΑ-20
 Ο χρήστης πρέπει να μπορεί να καταχωρήσει τις προσωπικές του προτιμήσεις. (Set Personal Preferences)
