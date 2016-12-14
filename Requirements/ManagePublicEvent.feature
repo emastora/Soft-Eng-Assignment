@@ -1,7 +1,7 @@
 Feature: Manage Public Event
     Background:
             Given i am logged in the system
-            And I am a professional user
+            And I am an organizer user
             And I have created a public event
             I want to manage my public event
             So as to make the desired changes
@@ -31,9 +31,9 @@ Feature: Manage Public Event
             Then I see all event's details in editable form
             And I make the desired changes
             When I finish updating my event
-            And I press save
+            And I press "Save"
             Then a message comes up " Are you sure you want to save the changes you made at your public event?"
-            And I press Yes
+            And I press "Yes"
             Then I have updated my public event
   Scenario: Unsuccessful Personal Event Update
             When I want to update my personal event
@@ -49,9 +49,9 @@ Feature: Manage Public Event
             Then I see all event's details in editable form
             And I make the desired changes
             When I finish updating my event
-            And I press save
-            Then a message comes up " Are you sure you want to save the changes you made at your public event?"
-            And I press No
+            And I press "Save"
+            Then a message pops up " Are you sure you want to save the changes you made at your public event?"
+            And I press "No"
             Then all changes are lost and the public event is not updated
             
             
