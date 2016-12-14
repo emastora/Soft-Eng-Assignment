@@ -10,7 +10,7 @@ Feature: Set Profie Settings
             Then I am redirected to my Profile settings page
             When I press the update email address option
             And I fill in my new email address
-            Then a new email is sent to my email address
+            Then a new email is sent to my new email address
             When I open the link provided at the new email sent
             Then my email is updated
     Scenario: Update my name
