@@ -1,4 +1,4 @@
-Feature: Create Personal Event
+Feature: Create Private Event
            As a user
            I want to create a private event
            So that I can gather with my friends and have fun
