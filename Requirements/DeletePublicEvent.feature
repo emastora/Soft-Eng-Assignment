@@ -14,12 +14,11 @@ Feature: Delete Personal Event
             When I find my desired event
             And I press at the event's name
             Then I am redirected at the event's page
-            And I press at the Manage event option
             And I press the Delete Option
-            Then a message comes up " Are you sure you want to delete your personal event? This cannot be undone"
-            And I press Yes
+            Then a message comes up " Are you sure you want to delete your public event? This cannot be undone"
+            And I press "Yes"
             Then my public event is deleted
-  Scenario: Unsuccessful Delete Personal Event 
+  Scenario: Unsuccessfully Delete Personal Event 
             When I want to delete my public event
             Then I hover over the Events tab
             And I select the My events option
@@ -29,8 +28,7 @@ Feature: Delete Personal Event
             When I find my desired event
             And I press at the event's name
             Then I am redirected at the event's page
-            And I press at the Manage event option
             And I press the Delete Option
-            Then a message comes up " Are you sure you want to delete your personal event? This cannot be undone"
-            And I press No
+            Then a message comes up " Are you sure you want to delete your public event? This cannot be undone"
+            And I press "No"
             Then my public event is not deleted
