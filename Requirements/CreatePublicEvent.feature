@@ -1,8 +1,8 @@
 Feature: Create Public Event
-  Background: Given I have applied for professional user
-            And I was given Professional User's permissions
+  Background: Given I have applied for organizer user
+            And I was given Organizer User's permissions
             
-            As a proffesional user
+            As an organizer user
             I want to create a public event
             So that I can attract people to join my event
   
