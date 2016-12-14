@@ -266,7 +266,7 @@ MISSING FEATURE
 **Stability: (5/5)**
 
 #### Ιστορίες Χρηστών
-[Set Profile Settigs](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/SetProfileSettings.feature)
+[Set Profile Settings](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/SetProfileSettings.feature)
 
 ### ΛΑ-20
 Ο χρήστης πρέπει να μπορεί να καταχωρήσει τις προσωπικές του προτιμήσεις. (Set Personal Preferences)
