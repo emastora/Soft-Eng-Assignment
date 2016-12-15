@@ -8,4 +8,12 @@ Feature: Search User
           When i press "Search"
           Then i see a list of users who include the characters i typed in their name
           
+  Scenario: Search user by Filters
+          Given I am at my HomePage
+          When I click on the lense
+          Then I am redirected on the Search Page
+          When I am writing in the Name
+                          location
+                          genre
+          
           
