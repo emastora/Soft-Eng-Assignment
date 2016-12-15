@@ -471,11 +471,56 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 
 
 ### ΛΑ-34
-Ο χρήστης πάροχος χώρου πρέπει να μπορεί να εγκρίνει τις εκδηλώσεις που γίνονται στον χώρο του (Approve Event)
+Ο χρήστης πάροχος χώρου πρέπει να μπορεί να εγκρίνει ή να απορρίπτει τις εκδηλώσεις που γίνονται στον χώρο του (Approve Event)
 
 **Περιγραφή**
 
 Ο χρήστης πάροχος του χώρου πρέπει να μπορεί να εγκρίνει όταν ένας χρήστης ή διοργανωτής δημιουργεί μια εκδήλωση και δηλώνει ότι θα γίνει στον χώρο του. Η εκδήλωση δεν είναι έγκυρη και δεν μπορεί να προστεθούν ή να την δουν άλλοι χρήστες παρά μόνο όταν εγκριθεί από τον πάροχο.
+
+**User Priority : (5/5)**
+**Technical Priority : (5/5)**
+**Stability: (5/5)**
+
+#### Ιστορίες Χρηστών
+Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+
+
+### ΛΑ-35
+Ο χρήστης διοργανωτής πρέπει να μπορεί να να ζητάει έγκριση χώρου από τον πάροχο όταν δημιουργεί μια νέα εκδήλωση για να την κάνει έγκυρη (Ask For Approval)
+
+**Περιγραφή**
+
+Ο χρήστης διοργανωτής κάθε φορά που δημιουργεί μια καινούρια εκδήλωση πρέπει να ζητάει έγκριση από τον πάροχο του χώρου έτσι ώστε να γίνει έγκυρη η εκδήλωση του και να δημοσιευτεί.
+
+**User Priority : (5/5)**
+**Technical Priority : (5/5)**
+**Stability: (5/5)**
+
+#### Ιστορίες Χρηστών
+Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+
+
+### ΛΑ-36
+Ο χρήστης πάροχος χώρου πρέπει να μπορεί να δηλώνει μια ελάχιστη τιμή ενοικίασης στους χρήστες διαχειριστές (Set Minimum Price for Admin)
+
+**Περιγραφή**
+
+Ο χρήστης πάροχος του χώρου πρέπει να δηλώσει μια ελάχιστη τιμή ενοικίασης χώρου κάτω από την οποία δεν μπροεί να κατέβει. Έτσι ο χρήστης διαχειριστής γνωρίζει ποιο θα είναι κάθε φορά το ελάχιστο ποσοστό εσόδων που θα λάβει ανά εκδήλωση. 
+
+**User Priority : (5/5)**
+**Technical Priority : (5/5)**
+**Stability: (5/5)**
+
+#### Ιστορίες Χρηστών
+Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+
+
+### ΛΑ-37
+Ο χρήστης που έχει δημιουργήσει μια εκδήλωση πρέπει να μπορεί να προσθέτει και άλλους διαχειριστές εκδήλώσης (Set Admin Event Role)
+
+**Περιγραφή**
+
+Ο χρήστης όταν δημιουργεί μια εκδήλωση πρέπει να μπορεί να κάνει και άλλους διαχειριστές της εκδήλωσης αν το επιθυμεί έτσι ώστε να μπορούν να διαχειρίζονται τα στοιχεία αυτής.
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
