@@ -1,0 +1,7 @@
+Feature: Set Minimum Price for Administrator
+
+       Scenario: Set minimum price for administrators
+              Given I am a host
+              When I am filling the details of my location
+              
+              
