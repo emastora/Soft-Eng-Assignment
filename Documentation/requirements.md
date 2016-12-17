@@ -31,6 +31,20 @@
 [Sign Up](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/SignUp.feature)
 
 ### ΛΑ-3
+Ο χρήστης πρέπει να μπορεί να κάνει έξοδο από την πλατφόρμα. (Log Out)
+
+**Περιγραφή**
+
+Ο χρήστης πρέπει να μπορεί να κάνει έξοδο από την πλατφόρμα για την προστασία των προσωπικών του δεδομένων. Το σύστημα θα μεταφέρει τον χρήστη στην αρχική σελίδα της πλατφόρμας.
+
+**User Priority : (5/5)**
+**Technical Priority : (5/5)**
+**Stability: (5/5)**
+
+#### Ιστορίες Χρηστών
+[Log Out](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/Logout.feature)
+
+### ΛΑ-4
 Ο χρήστης πρέπει να μπορεί να κάνει δημιουργία μιας ιδιωτικής εκδήλωσης. (Create Private Event)
 
 **Περιγραφή**
@@ -44,7 +58,7 @@
 #### Ιστορίες Χρηστών
 [Create Private Event](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/CreatePrivateEvent.feature)
 
-### ΛΑ-4
+### ΛΑ-5
 Ο χρήστης πρέπει να μπορεί να κάνει επεξεργασία μιας ιδιωτικής εκδήλωσης. (Manage Private Event)
 
 **Περιγραφή**
@@ -58,7 +72,7 @@
 #### Ιστορίες Χρηστών
 [Manage Private Event](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/ManagePrivateEvent.feature)
 
-### ΛΑ-5
+### ΛΑ-6
 Ο χρήστης πρέπει να μπορεί να κάνει διαγραφή μιας ιδιωτικής εκδήλωσης. (Delete Private Event)
 
 **Περιγραφή**
@@ -72,7 +86,7 @@
 #### Ιστορίες Χρηστών
 [Delete Private Event](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/DeletePrivateEvent.feature)
 
-### ΛΑ-6
+### ΛΑ-7
 Ο χρήστης πρέπει να μπορεί να κάνει αναζήτηση μιας εκδήλωσης. (Search Event)
 
 **Περιγραφή**
@@ -86,7 +100,7 @@
 #### Ιστορίες Χρηστών
 [Search Event](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/SearchEvent.feature)
 
-### ΛΑ-7
+### ΛΑ-8
 Ο χρήστης διοργανωτής πρέπει να μπορεί να κάνει δημιουργία μιας δημόσιας εκδήλωσης. (Create Public Event)
 
 **Περιγραφή**
@@ -100,7 +114,7 @@
 #### Ιστορίες Χρηστών
 [Create public event](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/CreatePublicEvent.feature)
 
-### ΛΑ-8
+### ΛΑ-9
 Ο χρήστης διοργανωτής πρέπει να μπορεί να κάνει επεξεργασία μιας δημόσιας εκδήλωσης. (Manage Public Event)
 
 **Περιγραφή**
@@ -114,7 +128,7 @@
 #### Ιστορίες Χρηστών
 [Manage public event](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/ManagePublicEvent.feature)
 
-### ΛΑ-9
+### ΛΑ-10
 Ο  χρήστης διοργανωτής πρέπει να μπορεί να κάνει διαγραφή μιας δημόσιας εκδήλωσης. (Delete Public Event)
 
 **Περιγραφή**
@@ -128,7 +142,7 @@
 #### Ιστορίες Χρηστών
 [Delete public event](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/DeletePublicEvent.feature)
 
-### ΛΑ-10
+### ΛΑ-11
 Το σύστημα πρέπει να μπορεί να εμφανίζει όλες τις δημόσιες εκδηλώσεις στους χρήστες. (Available Public Events) ??
 
 **Περιγραφή**
@@ -142,7 +156,7 @@
 #### Ιστορίες Χρηστών
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 
-### ΛΑ-11
+### ΛΑ-12
 Ο χρήστης πρέπει να μπορεί να δηλώσει ότι θα παραβρεθεί σε κάποια δημόσια εκδήλωση. ( Αttend Public Event)
 
 **Περιγραφή**
@@ -156,7 +170,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 #### Ιστορίες Χρηστών
 [Attend Public Event](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/AttendPublicEvent.feature)
 
-### ΛΑ-12
+### ΛΑ-13
 Ο χρήστης πρέπει να μπορεί να αγοράσει εισιτήριο για μια δημόσια εκδήλωση. (Buy Ticket for Public Event)
 
 **Περιγραφή**
@@ -170,7 +184,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 #### Ιστορίες Χρηστών
 [Buy ticket](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/BuyTicket.feature)
 
-### ΛΑ-13
+### ΛΑ-14
 Ο χρήστης πρέπει να μπορεί να κάνει αίτηση για να γίνει χρήστης διοργανωτής. (Apply for Organizer User)
 
 **Περιγραφή**
@@ -184,7 +198,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 #### Ιστορίες Χρηστών
 [Apply for Organizer](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/ApplyforOrganizer.feature)
 
-### ΛΑ-14
+### ΛΑ-15
 Ο χρήστης πρέπει να μπορεί να κάνει αίτηση για να γίνει πάροχος τοποθεσίας. (Apply for Host)
 
 **Περιγραφή**
@@ -198,7 +212,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 #### Ιστορίες Χρηστών
 [Αpply for Host](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/ApplyForHost.Feature)
 
-### ΛΑ-15
+### ΛΑ-16
 Ο πάροχος τοποθεσίας θα πρέπει να μπορεί να κάνει καταχώρηση χώρου στην πλατφόρμα. (Insert Place) 
 
 **Περιγραφή**
@@ -212,7 +226,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 #### Ιστορίες Χρηστών
 [Insert Place](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/InsertPlace)
 
-### ΛΑ-16
+### ΛΑ-17
 Το σύστημα θα πρέπει να μπορεί να προτείνει χώρους στους χρήστες του συστήματος. (Suggest Available Places) ??
 
 **Περιγραφή**
@@ -226,7 +240,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 #### Ιστορίες Χρηστών
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 
-### ΛΑ-17
+### ΛΑ-18
 Ο χρήστης διαχειριστής συστήματος θα πρέπει να μπορεί να επεξεργαστεί όλες τις εκδηλώσεις της πλατφόρμας. (Admin user permissions)
 
 **Περιγραφή**
@@ -240,7 +254,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 #### Ιστορίες Χρηστών
 [Admin User Permissions](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/AdminPermissions.feature)
 
-### ΛΑ-18
+### ΛΑ-19
 Ο χρήσης διαχειριστής συστήματος θα πρέπει να μπορεί να εγκρίνει τις αιτήσεις των χρηστών. (Approve users applications)
 
 **Περιγραφή**
@@ -252,9 +266,9 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 **Stability: (5/5)**
 
 #### Ιστορίες Χρηστών
-MISSING FEATURE
+[Approve Users' Applications](https://github.com/emastora/Soft-Eng-Assignment/blob/manos/Requirements/ApproveApplication.feature)
 
-### ΛΑ-19
+### ΛΑ-20
 Ο χρήστης πρέπει να μπορεί να επεξεργαστεί το προσωπικό του προφιλ. (Set Profile Settings)
 
 **Περιγραφή**
@@ -268,7 +282,7 @@ MISSING FEATURE
 #### Ιστορίες Χρηστών
 [Set Profile Settings](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/SetProfileSettings.feature)
 
-### ΛΑ-20
+### ΛΑ-21
 Ο χρήστης πρέπει να μπορεί να καταχωρήσει τις προσωπικές του προτιμήσεις. (Set Personal Preferences)
 
 **Περιγραφή**
@@ -280,9 +294,9 @@ MISSING FEATURE
 **Stability: (5/5)**
 
 #### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+[Set Personal Preferences](https://github.com/emastora/Soft-Eng-Assignment/blob/manos/Requirements/SetPersonalPreferencies.feature)
 
-### ΛΑ-21
+### ΛΑ-22
 Ο χρήστης πρέπει να μπορεί να επεξεργαστεί τις προσωπικές του προτιμήσεις. (Manage Personal Preferences)
 
 **Περιγραφή**
@@ -294,10 +308,10 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 **Stability: (5/5)**
 
 #### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+[Manage Personal Preferences](https://github.com/emastora/Soft-Eng-Assignment/blob/manos/Requirements/ManagePersonalPreferencies.feature)
 
-### ΛΑ-22
-Το σύστημα πρέπει να μπορει να προτείνει δημόσιες εκδηλώσεις στους χρήστες. (Suggested Public Events)
+### ΛΑ-23
+Το σύστημα πρέπει να μπορει να προτείνει δημόσιες εκδηλώσεις στους χρήστες. (Suggested Public Events) ??
 
 **Περιγραφή**
 
@@ -308,10 +322,10 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 **Stability: (5/5)**
 
 #### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+MISSING FEATURE
 
-### ΛΑ-23
-Το σύστημα πρέπει να μπορεί να ειδοποιεί τον χρήστη για επικείμενες εκδηλώσεις. (Notification for event)
+### ΛΑ-24
+Το σύστημα πρέπει να μπορεί να ειδοποιεί τον χρήστη για επικείμενες εκδηλώσεις. (Notification for event) ??
 
 **Περιγραφή**
 
@@ -324,7 +338,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 #### Ιστορίες Χρηστών
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 
-### ΛΑ-24
+### ΛΑ-25
 Ο χρήστης πρέπει να μπορεί να κάνει κριτική σε εκδήλωση. (Give Event Feedback)
 
 **Περιγραφή**
@@ -336,9 +350,9 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 **Stability: (5/5)**
 
 #### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+[Give Feedback](https://github.com/emastora/Soft-Eng-Assignment/blob/manos/Requirements/GiveFeedback.feature)
 
-### ΛΑ-25
+### ΛΑ-26
 Το σύστημα θα πρέπει να μπορεί να δείχνει στον χρήστη εκδηλώσεις στις οποίες έχει παρευρεθεί στο παρελθόν. (Show Archived Events)
 
 **Περιγραφή**
@@ -350,10 +364,10 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 **Stability: (5/5)**
 
 #### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+Missing Feature
 
-### ΛΑ-26
-Ο χρήστης πρέπει να μπορεί να κάνει αναζήτηση μιας δημόσιας εκδήλωσης. (Search Public Event)
+### ΛΑ-27
+Ο χρήστης πρέπει να μπορεί να κάνει αναζήτηση μιας δημόσιας εκδήλωσης. (Search Public Event) ?? ΜΛΑ
 
 **Περιγραφή**
 
@@ -364,10 +378,10 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 **Stability: (5/5)**
 
 #### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+MISSING FEATURE
 
-### ΛΑ-27
-Το σύστημα πρέπει να ενημερώνει τους χρήστες για αλλαγές σε κάποια εκδήλωση. (Notify about changes)
+### ΛΑ-28
+Το σύστημα πρέπει να ενημερώνει τους χρήστες για αλλαγές σε κάποια εκδήλωση. (Notify about changes) ??
 
 **Περιγραφή**
 
@@ -378,24 +392,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 **Stability: (5/5)**
 
 #### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
-
-
-
-### ΛΑ-28
- ???? σβησιμο Ο χρήστης πρέπει να μπορεί να επιλέξει να αποκτήσει δικαιώματα διοργανωτή ή παρόχου χώρου ή και τα δύο. (Expand rights)
-
-**Περιγραφή**
-
-Ο χρήστης της πλατφόρμας πρέπει με το που ολοκληρώνει την εγγραφή του να ερωτάται αν επιθυμεί να είναι διοργανωτής ή πάροχος χώρου ή χώρων. Επισης θα πρέπει να μπορεί να κάνει αυτή την αλλαγή όποτε άλλοτε επιθυμεί στο μέλλον. 
-
-**User Priority : (5/5)**
-**Technical Priority : (5/5)**
-**Stability: (5/5)**
-
-#### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
-
+MISSING FEATURE
 
 ### ΛΑ-29
 Ο χρήστης πρέπει να μπορεί να αναζητήσει άλλον χρήστη (Search User)
@@ -528,14 +525,6 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 
 #### Ιστορίες Χρηστών
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
-
-
-
-
-
-
-
-
 
 
 ## Use case diagram
