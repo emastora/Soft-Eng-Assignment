@@ -8,14 +8,14 @@ Feature: Log out of the system
             When I am navigating in the platform
             And I want to log out
             Then I press at the Log out button 
-            And a pop up window comes up asking for confirmation of my action
-            And I press Yes
-            Then I have successfully loged out of the system
+            And a message pops up asking "Are you sure you want to Logout?"
+            And I press "Yes"
+            Then I have successfully logged out of the system
     Scenario: Unsuccessful Logout
             When I am navigating in the platform
             And I want to log out
             Then I press at the Log out button 
-            And a pop up window comes up asking for confirmation of my action
-            And I press No
-            Then I have unsuccessfully loged out of the system
+            And a message pops up asking "Are you sure you want to Logout?"
+            And I press "No"
+            Then I have unsuccessfully logged out of the system
    
