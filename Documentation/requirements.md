@@ -530,6 +530,21 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
 
 
+### ΛΑ-38
+Ο χρήστης πρέπει να μπορεί να αναζητεί χώρο εκδηλώσεων (Search Location)
+
+**Περιγραφή**
+
+Ο χρήστης πρέπει να μπορεί να αναζητεί χώρους εκδηλώσεων με βάση την τοποθεσία και το είδος έτσι ώστε να ενημερώνεται για το αν υπάρχει κάποια εκδήλωση ή όχι σε ημερομηνίες που τον ενδιαφέρουν.
+
+**User Priority : (5/5)**
+**Technical Priority : (5/5)**
+**Stability: (5/5)**
+
+#### Ιστορίες Χρηστών
+Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+
+
 
 
 
