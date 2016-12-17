@@ -7,7 +7,7 @@ Feature: Set Profie Settings
             When I want to add an event type to my personal preferencies
             Then I hover over the Settings tab
             And I select the My Personal Preferencies option
-            Then I am redirected to myPersonal Preferencies page
+            Then I am redirected to my Personal Preferencies page
             And I can see my existing Personal Preferences
             When I press the "Add" option
             And I add some extra types
