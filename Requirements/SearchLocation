@@ -1,0 +1,9 @@
+Feature: Search Location
+
+    Scenario: Search Location
+            Given I am in My Profile
+            When I press Locations Tab
+            Then I redirected to the Locations Search Page
+            And i have to fill up one or more filters including Location, Genre, Date
+            And I press Search Tab
+            And I can see the searcg location's list
