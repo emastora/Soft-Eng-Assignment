@@ -369,7 +369,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 
 
 #### Ιστορίες Χρηστών
-[Give Feedback](https://github.com/emastora/Soft-Eng-Assignment/blob/manos/Requirements/GiveFeedback.feature)
+[Give Event Feedback](https://github.com/emastora/Soft-Eng-Assignment/blob/manos/Requirements/GiveEventFeedback.feature)
 
 ### ΛΑ-26
 Το σύστημα θα πρέπει να μπορεί να δείχνει στον χρήστη εκδηλώσεις στις οποίες έχει παρευρεθεί στο παρελθόν. (Show Archived Events)??
@@ -559,6 +559,21 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 
 #### Ιστορίες Χρηστών
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+
+### ΛΑ-39
+Ο χρήστης πρέπει να μπορεί να κάνει κριτική σε χώρο. (Give Location Feedback)
+
+**Περιγραφή**
+
+Ο χρήστης θα μπορεί να κάνει κριτκή και να βαθμολογεί έναν χώρο στον οποίο παρευρέθηκε σε μία εκδήλωση, καθώς και να γράψει κάποια σχόλια σε μία φόρμα και τα οποία θα δημοσιεύονται στη σελίδα του χώρου.
+
+**User Priority : (2/5)** Καλή λειτουργία για ένα χρήστη να μπορεί να βαθμολογήσει έναν χώρο στον οποίο παρεβρέθηκε καθώς θα είναι πολύ χρήσιμο για μελλοντικούς χρήστες να έχουνε μια ιδέα για το πόσο καλός είναι ο χώρος που θέλουν πιθανώς να οργανώσουν μία εκδήλωση.
+
+**Technical Priority : (1/5)** Το σύστημα θα πρέπει να αποθηκεύει σωστά την κριτική των χρηστών στην βάση.
+
+
+#### Ιστορίες Χρηστών
+[Give Event Feedback](https://github.com/emastora/Soft-Eng-Assignment/blob/manos/Requirements/GiveEventFeedback.feature)
 
 
 ## Use case diagram
