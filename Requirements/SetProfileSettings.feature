@@ -4,8 +4,8 @@ Feature: Set Profie Settings
            So that i can update my name or my email address or my password
   
     Scenario: Update email address
-            When I want to update my email address
-            Then I hover over the Settings tab
+            Given I want to update my email address
+            When I hover over the Settings tab
             And I select the My profile settings option
             Then I am redirected to my Profile settings page
             When I press the update email address option
@@ -14,18 +14,18 @@ Feature: Set Profie Settings
             When I open the link provided at the new email sent
             Then my email is updated
     Scenario: Update my name
-            When I want to update my name
-            Then I hover over the Settings tab
+            Given I want to update my name
+            When I hover over the Settings tab
             And I select the My profile settings option
             Then I am redirected to my Profile settings page
             When I press the update name option
             And I fill in my new name
             Then a new message pops up saying " Are you sure you want to update your name?"
-            And i press "Yes"
+            When i press "Yes"
             Then my name is updated
     Scenario: Change password
-            When I want to change my password
-            Then I hover over the Settings tab
+            Given I want to change my password
+            When I hover over the Settings tab
             And I select the My profile settings option
             Then I am redirected to my Profile settings page
             When I press the "Change password" option
@@ -35,8 +35,8 @@ Feature: Set Profie Settings
             When I open the link provided at the new email sent
             Then my password is changed
     Scenario: Change password unsuccessfully
-            When I want to change my password
-            ThenI hover over the Settings tab
+            Given I want to change my password
+            When I hover over the Settings tab
             And I select the My profile settings option
             Then I am redirected to my Profile settings page
             When I press the change passoword option
