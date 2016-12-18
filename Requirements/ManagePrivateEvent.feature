@@ -27,8 +27,8 @@ Feature: Manage Private Event
             Then I am redirected at the event's page
             When I press at the Manage event option
             Then I see all event's details in editable form
-            And I make the desired changes
-            When I finish updating my event
+            When I make the desired changes
+            And I finish updating my event
             And I press "Save"
             Then a message pops up " Are you sure you want to save the changes you made at your private event?"
             When I press "Yes"
@@ -44,8 +44,8 @@ Feature: Manage Private Event
             Then I am redirected at the event's page
             When I press at the Manage event option
             Then I see all event's details in editable form
-            And I make the desired changes
-            When I finish updating my event
+            When I make the desired changes
+            And I finish updating my event
             And I press "Save"
             Then a message pops up " Are you sure you want to save the changes you made at your private event?"
             When I press "No"
