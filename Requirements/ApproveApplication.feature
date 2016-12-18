@@ -13,6 +13,7 @@ Feature: Approve Applicatinons from users
             Then the application has been approved
             And the user is granted with either Host's or Organizer's permissions depending the Application type
             And an email is sent to the user to notify him about the approval
+            
     Scenario: Disapprove Application
             Given I am at my Home Page
             When I hover over Pending Applications tab
@@ -21,4 +22,4 @@ Feature: Approve Applicatinons from users
             When I read all details
             And I select the "Disaprove" button
             And I fill in a short note about the reasons that the application has been disapproved
-            Then an email is sent to the user to notify him about the disapproval and the reaso why
+            Then an email is sent to the user to notify him about the disapproval and the reason why

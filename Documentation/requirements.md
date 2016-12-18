@@ -151,7 +151,7 @@
 [Delete public event](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/DeletePublicEvent.feature)
 
 ### ΛΑ-11
-Το σύστημα πρέπει να μπορεί να εμφανίζει όλες τις δημόσιες εκδηλώσεις στους χρήστες. (Available Public Events) ??
+Ο χρήστης πρέπει να μπορεί να βλέπει όλες τις διαθέσιμες δημόσιες εκδηλώσεις. (Available Public Events)
 
 **Περιγραφή**
 
@@ -225,11 +225,11 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 [Αpply for Host](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/ApplyForHost.Feature)
 
 ### ΛΑ-16
-Ο πάροχος τοποθεσίας θα πρέπει να μπορεί να κάνει καταχώρηση χώρου στην πλατφόρμα. (Insert Place) 
+Ο πάροχος τοποθεσίας θα πρέπει να μπορεί να κάνει καταχώρηση χώρου στην πλατφόρμα. (Insert Location) 
 
 **Περιγραφή**
 
-Ο πάροχος τοποθεσίας θα μπορεί να κάνει καταχώρηση του χώρου του στην πλατφόρμα σημπληρώνοντας μια ειδική φόρμα με πληροφορίες όπως την διεύθυνση του χώρου, το όνομα του χώρου , τα διαθέσιμα έιδη εκδηλώσεων που μπορούν να λάβουν χώρα στον χώρο αυτό, μια ενδεικτική τιμή ενοικίασης, παροχές του χώρου.
+Ο πάροχος τοποθεσίας θα μπορεί να κάνει καταχώρηση του χώρου του στην πλατφόρμα συμπληρώνοντας μια ειδική φόρμα με πληροφορίες όπως την διεύθυνση του χώρου, το όνομα του χώρου , τα διαθέσιμα έιδη εκδηλώσεων που μπορούν να λάβουν χώρα στον χώρο αυτό, μια ενδεικτική τιμή ενοικίασης, παροχές του χώρου.
 
 **User Priority : (4/5)** Πολύ σημαντική λειτουργία για τον χρήστη πάροχο χώρου που πρέπει να καταχωρήσει τον χώρο του στην πλατφόρμα
 
@@ -238,14 +238,14 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 
 
 #### Ιστορίες Χρηστών
-[Insert Place](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/InsertPlace)
+[Insert Location](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/InsertLocation)
 
 ### ΛΑ-17
-Το σύστημα θα πρέπει να μπορεί να προτείνει χώρους στους χρήστες του συστήματος. (Suggest Available Places) ??
+Ο χρήστης πρέπει να μπορεί να δέχεται προτάσεις χώρους, που πιθανώς να ήθελε να ακολουθήσει ή να δημιουργήσει μια εκδήλωση, στη Κεντρική του σελίδα. (Suggest Location)
 
 **Περιγραφή**
 
-Κατα την δημιουργία μιας εκδήλωσης το σύστημα θα πρέπει να μπορεί να προτείνει στον χρήστη διαθέσιμους χώρους.
+Στη Κεντρική σελίδα του Χρήστη θα πρέπει να βγαίνουν προτεινόμενοι χώροι βασισμένοι στις προτιμήσεις που έχει δηλώσει αλλά και στις εκδηλώσεις που έχει παρεβρεθεί.
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
@@ -311,7 +311,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 
 
 #### Ιστορίες Χρηστών
-[Set Personal Preferences](https://github.com/emastora/Soft-Eng-Assignment/blob/manos/Requirements/SetPersonalPreferencies.feature)
+[Set Personal Preferences](https://github.com/emastora/Soft-Eng-Assignment/blob/manos/Requirements/SetPersonalPreferences.feature)
 
 ### ΛΑ-22
 Ο χρήστης πρέπει να μπορεί να επεξεργαστεί τις προσωπικές του προτιμήσεις. (Manage Personal Preferences)
@@ -369,10 +369,10 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 
 
 #### Ιστορίες Χρηστών
-[Give Feedback](https://github.com/emastora/Soft-Eng-Assignment/blob/manos/Requirements/GiveFeedback.feature)
+[Give Event Feedback](https://github.com/emastora/Soft-Eng-Assignment/blob/manos/Requirements/GiveEventFeedback.feature)
 
 ### ΛΑ-26
-Το σύστημα θα πρέπει να μπορεί να δείχνει στον χρήστη εκδηλώσεις στις οποίες έχει παρευρεθεί στο παρελθόν. (Show Archived Events)??
+Ο χρήστης πρέπει να μπορεί να βλέπει τις προηγούμενες εκδηλώσεις που έχει παρεβρεθεί. (Show Archived Events)
 
 **Περιγραφή**
 
@@ -400,11 +400,11 @@ Missing Feature
 MISSING FEATURE
 
 ### ΛΑ-28
-Το σύστημα πρέπει να ενημερώνει τους χρήστες για αλλαγές σε κάποια εκδήλωση. (Notify about changes) ??
+Ο χρήστης πρέπει να μπορεί να ενημερώνεται για αλλαγές στην εκδήλωση. (Notify about changes) 
 
 **Περιγραφή**
 
-Το σύστημα πρέπει να ενημερώνει τους χρήστες με email για αλλαγές που γίνονται σε κάποιο από τα στοιχεία/χαρακτηριστικά μιας εκδήλωσης για την οποία έχουνε δηλώσει οτι θα παρευρεθούνε.
+Ο χρήστης πρέπει να μπορεί να ενημερώνεται για αλλαγές που γίνονται σε εκδηλώσεις που έχει δηλώσει ότι θα παραστεί.
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
@@ -457,11 +457,11 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 
 
 ### ΛΑ-32
-Το σύστημα πρέπει να μπορεί να προτείνει στο χρήστη να γίνει φίλος με έναν άλλον χρήστη (Suggest Friend)
+Ο χρήστης πρέπει να μπορεί να λαμβάνει προτάσεις νέων φίλων για να προσθέσει (Suggest Friend)
 
 **Περιγραφή**
 
-Το σύστημα πρέπει να μπορεί να προτείνει φίλους σε κάποιον χρήστη με βάση τους κοινούς φίλους που έχει, τα είδη που επιλέγει στις προτιμήσεις του και την τοποθεσία του. 
+Ο χρήστης πρέπει να μπορεί ν αδει μια λίστα προτεινόμενων φίλων με βάση τις εκδηλώσεις που έχει πάει ήδη αλλά και τις προτιμήσεις του. 
 
 **User Priority : (5/5)**
 **Technical Priority : (5/5)**
@@ -544,6 +544,36 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 
 #### Ιστορίες Χρηστών
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+
+
+### ΛΑ-38
+Ο χρήστης πρέπει να μπορεί να αναζητεί χώρο εκδηλώσεων (Search Location)
+
+**Περιγραφή**
+
+Ο χρήστης πρέπει να μπορεί να αναζητεί χώρους εκδηλώσεων με βάση την τοποθεσία και το είδος έτσι ώστε να ενημερώνεται για το αν υπάρχει κάποια εκδήλωση ή όχι σε ημερομηνίες που τον ενδιαφέρουν.
+
+**User Priority : (5/5)**
+**Technical Priority : (5/5)**
+**Stability: (5/5)**
+
+#### Ιστορίες Χρηστών
+Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+
+### ΛΑ-39
+Ο χρήστης πρέπει να μπορεί να κάνει κριτική σε χώρο. (Give Location Feedback)
+
+**Περιγραφή**
+
+Ο χρήστης θα μπορεί να κάνει κριτκή και να βαθμολογεί έναν χώρο στον οποίο παρευρέθηκε σε μία εκδήλωση, καθώς και να γράψει κάποια σχόλια σε μία φόρμα και τα οποία θα δημοσιεύονται στη σελίδα του χώρου.
+
+**User Priority : (2/5)** Καλή λειτουργία για ένα χρήστη να μπορεί να βαθμολογήσει έναν χώρο στον οποίο παρεβρέθηκε καθώς θα είναι πολύ χρήσιμο για μελλοντικούς χρήστες να έχουνε μια ιδέα για το πόσο καλός είναι ο χώρος που θέλουν πιθανώς να οργανώσουν μία εκδήλωση.
+
+**Technical Priority : (1/5)** Το σύστημα θα πρέπει να αποθηκεύει σωστά την κριτική των χρηστών στην βάση.
+
+
+#### Ιστορίες Χρηστών
+[Give Event Feedback](https://github.com/emastora/Soft-Eng-Assignment/blob/manos/Requirements/GiveEventFeedback.feature)
 
 
 ## Use case diagram
