@@ -151,7 +151,7 @@
 [Delete public event](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/DeletePublicEvent.feature)
 
 ### ΛΑ-11
-Το σύστημα πρέπει να μπορεί να εμφανίζει όλες τις δημόσιες εκδηλώσεις στους χρήστες. (Available Public Events) ??
+Ο χρήστης πρέπει να μπορεί να βλέπει όλες τις διαθέσιμες δημόσιες εκδηλώσεις. (Available Public Events)
 
 **Περιγραφή**
 
@@ -241,7 +241,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 [Insert Place](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/InsertPlace)
 
 ### ΛΑ-17
-Το σύστημα θα πρέπει να μπορεί να προτείνει χώρους στους χρήστες του συστήματος. (Suggest Available Places) ??
+Ο χρήστης πρέπει να μπορεί να δέχεται προτάσεις . (Suggest Available Places) ??
 
 **Περιγραφή**
 
