@@ -1,4 +1,7 @@
 Feature: Approve Event
+         As a Host user
+         So that i can confirm that a specific event will take place in my place
+         I want to either to approve or not the event which created another user
 
       Scenario: Aprrove Event as a Host
               Given I am a Host User
