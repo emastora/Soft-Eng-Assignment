@@ -1,4 +1,7 @@
 Feature: Apply for Host User
+  As a user
+  So as to create my location(s) Page
+  I want to be clarified as a Host
   
     Scenario: Apply for Host User
             Given I am at my Home Page
@@ -10,6 +13,7 @@ Feature: Apply for Host User
             And I upload some photos of my place
             When I select the Submit form option
             Then I have applied for Host user
+    
     Scenario: Apply for Host User Unsuccessfully
             Given I am at my Home Page
             When I hover over My settings tab
