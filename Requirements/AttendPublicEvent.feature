@@ -5,8 +5,8 @@ Feature: Attend a public Event
   
     Scenario: Attend a puclic event
             Given I have found an available public event
-            Then I select the event
-            When I select the "Attend this Event" option
+            When I select the event
+            And I select the "Attend this Event" option
             Then I am redirected to the  event's page
             And I can now receive notifications about this event      
     
