@@ -311,7 +311,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 
 
 #### Ιστορίες Χρηστών
-[Set Personal Preferences](https://github.com/emastora/Soft-Eng-Assignment/blob/manos/Requirements/SetPersonalPreferencies.feature)
+[Set Personal Preferences](https://github.com/emastora/Soft-Eng-Assignment/blob/manos/Requirements/SetPersonalPreferences.feature)
 
 ### ΛΑ-22
 Ο χρήστης πρέπει να μπορεί να επεξεργαστεί τις προσωπικές του προτιμήσεις. (Manage Personal Preferences)
