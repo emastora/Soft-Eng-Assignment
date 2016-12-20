@@ -287,7 +287,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 
 **User Priority : (5/5)** Πολυ σημαντική λειτουργία για έναν χρήστη να μπορεί να επεξεργαστεί το προσωπικό του προφίλ και να προβεί στις αναγκαίες αλλαγές εάν αυτό απαιτούν οι συνθήκες.
 
-**Technical Priority : (2/5)** Το σύστημα πρέπει να αποθηεύκει σωστά στην βάση όποιες αλλαγές κάνει ο χρήστης και να δείχνει στον χρήστη τα σωστά στοιχεία που έχουν να κάνουν με το προφίλ του στην πλατφόρμα. Όχι κάποια ιδιαίτερη απαίτηση κα΄θώς έχει σηριμοποιθηεί στο παρελθόν πολλές φορές.
+**Technical Difficulty : (2/5)** Το σύστημα πρέπει να αποθηεύκει σωστά στην βάση όποιες αλλαγές κάνει ο χρήστης και να δείχνει στον χρήστη τα σωστά στοιχεία που έχουν να κάνουν με το προφίλ του στην πλατφόρμα. Όχι κάποια ιδιαίτερη απαίτηση καθώς έχει χρησιμοποιηθεί στο παρελθόν πολλές φορές.
 
 #### Ιστορίες Χρηστών
 [Set Profile Settings](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/SetProfileSettings.feature)
@@ -301,7 +301,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 
 **User Priority : (3/5)** Αυτή η λειτουργία βοηθάει κυρίως το σύστημα να προτείνει τις εκδηλώσεις που ταιριάζουνε με τις επιλογές του χρήστη. Είναι σημαντικό όμως για τον χρήστη να μπορεί να βλέπει και εκδηλώσεις που ταιριάζουνε με τις επιλογές του.
 
-**Technical Priority : (3/5)** Το σύστημα πρέπει να προτείνει τις σωστές εκδηλώσεις στον χρήστη με βάση τις προσωπικές του επιλογές. Χωρίς ιδιαίτερη δυσκολία καθώς πρόκειται για απλή καταχώρηση δεδομένων.
+**Technical Difficulty : (3/5)** Το σύστημα πρέπει να προτείνει τις σωστές εκδηλώσεις στον χρήστη με βάση τις προσωπικές του επιλογές. Χωρίς ιδιαίτερη δυσκολία καθώς πρόκειται για απλή καταχώρηση δεδομένων.
 
 #### Ιστορίες Χρηστών
 [Set Personal Preferences](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/SetPersonalPreferences.feature)
@@ -315,11 +315,11 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 
 **User Priority : (4/5)** Αυτή η λειτουργία βοηθάει κυρίως το σύστημα να προτείνει τις εκδηλώσεις που ταιριάζουνε με τις επιλογές του χρήστη. Είναι σημαντικό όμως για τον χρήστη να μπορεί να επεξεργαστεί και να άλλαξει τις προσωπικές του προτιμήσεις εάν αυτό επιθυμεί.
 
-**Technical Priority : (4/5)** Το σύστημα πρέπει να προτείνει τις σωστές εκδηλώσεις στον χρήστη με βάση τις προσωπικές του επιλογές.
+**Technical Difficulty : (3/5)** Το σύστημα πρέπει να προτείνει τις σωστές εκδηλώσεις στον χρήστη με βάση τις προσωπικές του επιλογές. Απλής δυσκολίας καθώς πρόκειται για απλή καταγραφή δεδομένων
 
 
 #### Ιστορίες Χρηστών
-[Manage Personal Preferences](https://github.com/emastora/Soft-Eng-Assignment/blob/manos/Requirements/ManagePersonalPreferencies.feature)
+[Manage Personal Preferences](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/ManagePersonalPreferences.feature)
 
 ### ΛΑ-23
 Το σύστημα πρέπει να μπορει να προτείνει δημόσιες εκδηλώσεις στους χρήστες. (Suggested Public Events) ??
