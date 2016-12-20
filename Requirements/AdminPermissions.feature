@@ -4,12 +4,12 @@ Feature: Manage all events
            So that I can protect my users from dangerous or unethical events
   
     Scenario: Delete unethical event
-            When an unethical event is created
-            Then I can access the event's page
-            And delete the event           
+            Given an unethical event is created
+            When I can access the event's page
+            Then delete the event           
     Scenario: Change the genre of an event
-            When an event is created
+            Given an event is created
             And the genre of the event is wrong
-            Then I can access the event's page
+            When I can access the event's page
             And modify the event's type in order to inform all users
-            And the type of the event is updated
+            Then the type of the event is updated
