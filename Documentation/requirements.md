@@ -322,15 +322,15 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 [Manage Personal Preferences](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/ManagePersonalPreferences.feature)
 
 ### ΛΑ-23
-Το σύστημα πρέπει να μπορει να προτείνει δημόσιες εκδηλώσεις στους χρήστες. (Suggested Public Events) ??
+Ο χρήστης πρέπει να μπορεί να βλέπει προτεινόμενες εκδηλώσεις. (Suggested Public Events)
 
 **Περιγραφή**
 
 Το σύστημα θα πρέπει να λαμβάνει υπόψιν τις προσωπικές προτιμήσεις των χρηστών της πλατφόρμας και να προτείνει σε κάθε χρήστη δήμοσιες εκδηλώσεις (public events) που να ταιριάζουνε με τις προσωπικές του προτιμήσεις.
 
-**User Priority : (5/5)**
-**Technical Priority : (5/5)**
-**Stability: (5/5)**
+**User Priority : (5/5)** Είναι σημαντική λειτουργία καθώς ο χρήστης μπορεί να ενημερώνεται για εκδηλώσεις που είναι πολύ πιθανό να παρακολουθήσει.
+**Technical Difficulty : (5/5)** Αρκετά απαιτητική λειτουργία καθώς πρέπει να συνδιάσει το σύστημα τις πληροφορίες από τις προτιμήσεις του χρήστη με τις επικείμενες εκδηλώσεις που δύναται να τον ενδιαφέρουν 
+
 
 #### Ιστορίες Χρηστών
 MISSING FEATURE
