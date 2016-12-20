@@ -4,7 +4,7 @@ Feature Suggested Locations for a new event
   So as to choose the best one
   
   
-      Scenario: Suggest Locations in NewsFeed
+      Scenario: Suggest Locations in Create Event's Page
               Given I am at Create Event Page
               When I fill in the Date, Type , City
               And I select "Location"
