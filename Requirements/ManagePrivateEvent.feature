@@ -10,22 +10,23 @@ Feature: Manage Private Event
             And I select the My events option
             Then I am redirected to My events page
             When I select Events Created
-            And I start searching the desired event by Name, Location, Type
+            And I start searching the desired event by Name, Location, Type, Date
             When I find my desired event
-            And I press at the event's name
+            And I select the event's name
             Then I am redirected to the event's page
-            And I can view my event and make the desired changes
+            And I can view my event 
+            And I can  make the desired changes
     Scenario: Update Private Event 
             Given I want to update my private event
             When I hover over the Events tab
             And I select the My events option
             Then I am redirected to My events page
             When I select Events Created
-            And I start searching the desired event by Name, Location, Type
+            And I start searching the desired event by Name, Location, Type, Date
             When I find my desired event
             And I press at the event's name
             Then I am redirected at the event's page
-            When I press at the Manage event option
+            When I select the "Manage event" option
             Then I see all event's details in editable form
             When I make the desired changes
             And I finish updating my event
@@ -40,9 +41,9 @@ Feature: Manage Private Event
             And I select Events Created
             And I start searching the desired event by Name, Location, Type, Date
             When I find my desired event
-            And I press at the event's name
+            And I select the event's name
             Then I am redirected at the event's page
-            When I press at the Manage event option
+            When I select the "Manage event" option
             Then I see all event's details in editable form
             When I make the desired changes
             And I finish updating my event
