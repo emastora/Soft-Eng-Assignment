@@ -14,45 +14,45 @@ Feature: Search Event
             When I hover over the Events tab
             And I select the My events option
             Then I am redirected to My events page
-            When I can tick either Events Attending or Events Created By Me
+            When I select Events Attending or Events Created By Me
             Then I can search an event either by Name , Location ,Date or Type
             When I search an event by name
             And I type the name of the event 
             Then all available events that have the same name with the one that I typed appear 
             And I can select the desired event
-    Scenario: Unsuccessfully search event by name
+    Scenario: Search event by name unsuccessfully
             Given I want to find an event
             When I hover over the Events tab
             And I select the My events option
             Then I am redirected to My events page
-            When I select Events Attending or Created or Both
+            When I select Events Attending or Created
             Then I can search an event either by Name, Location, Date or Type
             When I search an event by name
             And I type the name of the event 
             And there are no available events that have the same name with the one that I typed 
-            Then an error message pops up " There are no available events under the name you have chosen"
+            Then a message pops up " There are no available events under the name you have chosen"
     Scenario: Search event by date
             Given I want to find an event
             When I hover over the Events tab
             And I select the My events option
             Then I am redirected to My events page
-            When I select Events Created or Attending or Both
+            When I select Events Created or Attending
             Then I can search an event either by Name , Location ,Date or Type
             When I search an event by date
             Then a calendar appears 
             And I can select the desired date
             Then all available events that are going to take place the same date with the one that I chose appear 
             And I can select the desired event
-    Scenario: Unsuccessfully search event by date
+    Scenario: Search event by date Unsuccessfully
             Given I want to find an event
             When I hover over the Events tab
             And I select the My events option
             Then I am redirected to My events page
-            When I select Events Created or Attending or Both
+            When I select Events Created or Attending 
             Then I can search an event by Name , Location ,Date or Type
             When I search an event by date
             Then a calendar appears 
             And I can select the desired date
             And there are no available events that are going to take place the same date with the one that I have chosen  
-            Then an error message comes up " There are no available events at the date you have chosen"
+            Then a message pops up " There are no available events at the date you have chosen"
             
