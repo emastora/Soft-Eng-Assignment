@@ -333,7 +333,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 
 
 #### Ιστορίες Χρηστών
-[Suggested Public Events](htps://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/SuggestPublicEvents.feature)
+[Suggested Public Events](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/SuggestPublicEvents.feature)
 
 ### ΛΑ-24
 Το σύστημα πρέπει να μπορεί να ειδοποιεί τον χρήστη για επικείμενες εκδηλώσεις. (Notification for event) ??
