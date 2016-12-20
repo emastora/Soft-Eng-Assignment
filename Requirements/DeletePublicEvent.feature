@@ -1,11 +1,11 @@
-Feature: Delete Personal Event
+Feature: Delete Public Event
     Background:
             Given I have created a public event
             As an Organizer
             I want to find my public event
             So as to delete it
             
-    Scenario: Delete Personal Event             
+    Scenario: Delete Public Event             
             When I hover over the Events tab
             And I select the My events option
             Then I am redirected to My events page
@@ -18,7 +18,7 @@ Feature: Delete Personal Event
             Then a message pops up " Are you sure you want to delete your public event? This cannot be undone"
             When I select "Yes"
             Then my public event is deleted
-  Scenario: Delete Personal Event  υnsuccessfully             
+  Scenario: Delete Public Event υnsuccessfully             
             When I hover over the Events tab
             And I select the My events option
             Then I am redirected to My events page
