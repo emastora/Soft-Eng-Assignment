@@ -8,9 +8,7 @@ Feature: Sign up to the system
             And I fill in all fields with the requested data (Name , Username , Password , Email, Location)
             And I press the sign up button
             Then A message pops up " Dear user, We sent you a welcome email with your confirmation link"
-            When I check my emails
-            And Open the welcome email 
-            And  I press the confirmation link
+            When I press the confirmation link
             Then I am redirected to the platform 
             And a message pops up "Your confirmation process has been successful. Welcome to our platform"
     Scenario: Unsuccessful Sign Up
