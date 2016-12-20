@@ -236,7 +236,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 [Insert Location](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/InsertLocation.feature)
 
 ### ΛΑ-17
-Ο χρήστης πρέπει να μπορεί να δέχεται προτάσεις χώρους, που πιθανώς να ήθελε να ακολουθήσει ή να δημιουργήσει μια εκδήλωση, στη Κεντρική του σελίδα. (Suggest Location)
+Ο χρήστης πρέπει να μπορεί να δέχεται προτάσεις  χώρους, που πιθανώς να ήθελε να ακολουθήσει ή να δημιουργήσει μια εκδήλωση, στη Κεντρική του σελίδα. (Suggest Location)
 
 **Περιγραφή**
 
@@ -246,7 +246,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 **Technical Priority : (5/5)**
 
 #### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+[Suggest Location](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/SuggestLocation.feature)
 
 ### ΛΑ-18
 Ο χρήστης διαχειριστής συστήματος θα πρέπει να μπορεί να επεξεργαστεί όλες τις εκδηλώσεις της πλατφόρμας. (Admin user permissions)
