@@ -8,8 +8,8 @@ Feature Suggested Locations for a new event
               Given I am at Create Event Page
               When I fill in the Date, Type , City
               And I select "Location"
-              Then I see the 5 more relevant locations in the "Suggested Locations" map
-              When I press each one
-              Then I redirected in the Location's Page in a new window
+              Then I see the five more relevant locations in the "Suggested Locations" map
+              When I select one of them
+              Then I redirected at the Location's Page in a new window
               When I select the Location i want
-              Then the Location Added in my event form
+              Then the Location is Added in my event form
