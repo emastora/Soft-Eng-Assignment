@@ -21,7 +21,7 @@ Feature: Set Profie Settings
             When I press the update name option
             And I fill in my new name
             Then a new message pops up saying " Are you sure you want to update your name?"
-            When i press "Yes"
+            When Ι press "Yes"
             Then my name is updated
     Scenario: Change password
             Given I want to change my password
