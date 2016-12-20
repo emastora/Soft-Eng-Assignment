@@ -304,7 +304,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 **Technical Priority : (3/5)** Το σύστημα πρέπει να προτείνει τις σωστές εκδηλώσεις στον χρήστη με βάση τις προσωπικές του επιλογές. Χωρίς ιδιαίτερη δυσκολία καθώς πρόκειται για απλή καταχώρηση δεδομένων.
 
 #### Ιστορίες Χρηστών
-[Set Personal Preferences](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/SetProfileSettings.feature)
+[Set Personal Preferences](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/SetPersonalPreferences.feature)
 
 ### ΛΑ-22
 Ο χρήστης πρέπει να μπορεί να επεξεργαστεί τις προσωπικές του προτιμήσεις. (Manage Personal Preferences)
