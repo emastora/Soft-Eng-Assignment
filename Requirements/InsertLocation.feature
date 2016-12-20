@@ -3,7 +3,7 @@ Feature: Insert Location
               I want to add my Location to the platform
               So as to make it available for event hosting
               
-    Scenario: Insert Locations
+    Scenario: Insert Location
             When I hover over the Locations tab
             And I select the "Insert Location" tab
             Then I am redirected to Insert Location initial form
