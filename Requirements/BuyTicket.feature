@@ -6,7 +6,7 @@ Feature: Buy ticket for a public Event
     Scenario: Buy a ticket for a public event
             Given I have found an available public event
             When I select the event
-            And I select the "Attend this Event" option
+            And I select the "Attend Event" option
             Then I am redirected to the  event's page
             When I select the "Buy a ticket" option
             And I complete the transaction
