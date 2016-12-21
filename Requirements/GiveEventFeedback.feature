@@ -5,9 +5,9 @@ Feature: Give feedback for an Event
   
     Scenario: Give Event Feedback
             Given I have attended an event
-            When I want to give feedback about this specific event
+            And I want to give feedback about this specific event
             When I select the Events Tab
-            And I press the "My Archived Events"
+            And I select the "My Archived Events"
             Then I can search my archived events either by Name , Date , Location or Type
             When I select the event that I want
             Then I am redirected to the event's page
@@ -16,7 +16,6 @@ Feature: Give feedback for an Event
             And I can write a small paragraph about my experience          
     Scenario: Try to give Feedack after a certain amount of time (30 days)
             Given I have attended an event
-            
             When I select the Events Tab
             And I press the "My Archived Events"
             Then I can search my archived events either by Name , Date , Location or Type
