@@ -1,7 +1,9 @@
 Feature: Hide User from Search
    As a User
-   So as to use the application only for getting information about events
    I want to be able to stay hidden in other user's friend search
+   So as to use the application only for getting information about events
+   And to add friends only me.
+   
    
   Scenario: Hide User
           Given i am at My Preferences page
