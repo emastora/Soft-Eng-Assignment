@@ -482,7 +482,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 **Technical Difficulty : (4/5)** Η δυσκολία εντοπίζεται στην αλληλεπίδραση μεταξύ δύο χρηστών που εμπλέκει όμως το αποτέλεσμα της έναν χώρο. 
 
 #### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+[Approve Event](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/ApproveEvent.feature)
 
 
 ### ΛΑ-35
