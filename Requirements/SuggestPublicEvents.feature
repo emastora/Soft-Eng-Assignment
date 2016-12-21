@@ -4,7 +4,7 @@ Feature Suggest Public Events
       So as to attend to some of these
       
       Scenario: Suggestion of Available Public Event
-            Given I am in my News Feed
+            Given I am in my Homepage
             When I refresh the page 
             Then I see a list of three suggested public events based on my preferences
             When I select more
