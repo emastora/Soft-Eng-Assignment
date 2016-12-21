@@ -7,8 +7,7 @@ Feature : Notifications for Changes in the Events
             Given I am a user in any page
             And an administrator user changes some of the preferences of the event
             Then a notification flashes in Notifications Tab
-            When I hover the cursor over the tab
-            And I press Notifications tab
+            When select Notifications tab
             Then I am redirected in Notifications List Page
             And the first is the change just happened
             When I choose it
