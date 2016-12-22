@@ -534,12 +534,11 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 
 Ο χρήστης πρέπει να μπορεί να αναζητεί χώρους εκδηλώσεων με βάση την τοποθεσία και το είδος έτσι ώστε να ενημερώνεται για το αν υπάρχει κάποια εκδήλωση ή όχι σε ημερομηνίες που τον ενδιαφέρουν.
 
-**User Priority : (5/5)**
-**Technical Priority : (5/5)**
-**Stability: (5/5)**
+**User Priority : (5/5)** Πολύ βασική λειτουργία καθώς ο χρήστης πρέπει να μπορεί να αναζητεί άμεσα χώρους που τον εξυπηρετούν για να μπορέσει να διοργανώσει εκδηλώσεις.
+**Technical Difficulty : (4/5)** Η λειτουργία αποτελεί μια συνδιαστική έρευνα στη βάση δεδομένων των χώρων αλλά και των εκδηλώσεων αν χρειαστεί χωρίς όμως να αποτελεί κάτι εξεσυζητημένο που θα δημιουργούσε ιδιαίτερο πρόβλημα.
 
 #### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+[Search Location](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/SearchLocation.feature)
 
 ### ΛΑ-39
 Ο χρήστης πρέπει να μπορεί να κάνει κριτική σε χώρο. (Give Location Feedback)
@@ -550,7 +549,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 
 **User Priority : (2/5)** Καλή λειτουργία για ένα χρήστη να μπορεί να βαθμολογήσει έναν χώρο στον οποίο παρεβρέθηκε καθώς θα είναι πολύ χρήσιμο για μελλοντικούς χρήστες να έχουνε μια ιδέα για το πόσο καλός είναι ο χώρος που θέλουν πιθανώς να οργανώσουν μία εκδήλωση.
 
-**Technical Priority : (1/5)** Το σύστημα θα πρέπει να αποθηκεύει σωστά την κριτική των χρηστών στην βάση.
+**Technical Difficulty : (1/5)** Το σύστημα θα πρέπει να αποθηκεύει σωστά την κριτική των χρηστών στην βάση.
 
 
 #### Ιστορίες Χρηστών
