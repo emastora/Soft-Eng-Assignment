@@ -581,7 +581,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 
 
 #### Ιστορίες Χρηστών
-[Set Max Attendants](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/SetMaxAttendants.feature)
+[Send Private Message](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/SendPrivateMessage.feature)
 
 
 
