@@ -1,4 +1,4 @@
-Feature : Notifications for Changes in the Events
+Feature: Notifications for Changes in the Events
     As a user 
     I want to receive notifications (in-app , email) if there are changes in the events I am attending
     So as to reschedule my programme
