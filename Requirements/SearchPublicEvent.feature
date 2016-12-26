@@ -16,4 +16,4 @@ Feature Search Public Events with filters
             And I select Available Public Events
             Then I am redirected to Available Public Events page
             When I select " Search Public Events" tab
-            Then a pop up windows appears " please fill in at least one criteria for your search"
+            Then a pop up windows appears " Please fill in at least one criteria for your search"
