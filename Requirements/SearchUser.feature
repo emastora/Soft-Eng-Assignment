@@ -1,9 +1,9 @@
-Fetaure Searh Another User
+Feature: Searh Another User
       As a user
       I want to find another user
-      So as to see his probile and maybe add him as friend
+      So as to see his probile 
       
-      Scenario: Seach User
+      Scenario: Search User
             Given I want to find new friends
             When I hover over the "Friends" tab 
             And I select "Search Users" option
