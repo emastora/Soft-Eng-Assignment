@@ -1,4 +1,4 @@
-Feature: Suggest users for friends
+Feature: Suggest users for Friends
       As a user
       I want to receive suggestions for other users with similar preferences
       So as to add them as friends and attend public events with them
