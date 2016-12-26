@@ -3,7 +3,7 @@ Feature: Suggest users for Friends
       I want to receive suggestions for other users with similar preferences
       So as to add them as friends and attend public events with them
       
-      Scenario: Suggest Friend
+      Scenario: Suggest Users
               Given I am at my Home Page
               When I hover over the "Friends" Tab
               And I select "Users Suggestions"
