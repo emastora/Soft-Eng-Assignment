@@ -12,7 +12,7 @@ Feature: Send Location Request
               Then a notification is sent to the Host user
               And the Event is awaiting for Approval
               
-      Scenario: When there is Already an event take place in the specific Location and time
+      Scenario: No available date for the specific location
               Given I am a User or an Organizer
               When I create an event and fill in all the details
               And I choose a date for my event
