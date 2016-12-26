@@ -13,7 +13,7 @@ Feature: Approve Event Request
               Then I am redirected to the Event's page 
               And I can choose whether to "Approve" or "Disapprove" 
               
-      Scenario: Disapprove an event
+      Scenario: Disapprove a Location Request
               Given I am a Host user
               When I receive a notification from another user so as to check an event
                And I press the Location Requests tab
