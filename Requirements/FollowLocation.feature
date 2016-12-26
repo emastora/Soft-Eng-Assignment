@@ -10,7 +10,7 @@ Feature: Follow Location
           When I press the "Follow Location" button
           Then the specific location is in my Locations List
         
-   Scenario: Favourite Location already exists and Remove
+   Scenario: Unfollow Location
          Given I am at a location's page
          And I have already added this location in my location list in the past
          Then there is a "Unfollow Location" button instead of "Follow Location"
