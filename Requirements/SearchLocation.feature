@@ -1,21 +1,21 @@
 Feature: Search Location
     As a User
     I want to see a list of locations in a specific area
-    So as to rent a location for my event or to see their event programme
+    So as to rent a location for my event or to see their event agenda.
 
     Scenario: Search Location
             Given I am in My Profile
             When I press Locations Tab
-            Then I redirected to the Locations Search Page
-            When i have to fill up one or more filters including Location, Genre, Date, Hour, Free
+            Then I am redirected to the Locations Search Page
+            When I fill in one or more filters including Location, Genre, Date, Hour, Free
             And I press Search button
-            And I can see the search location's list
+            Then I can see the locations list
             
     Scenario: Search Location which is free, nearby and a specific date
             Given I am in My Profile
             When I press Locations Tab
-            Then I redirected to the Locations Search Page
-            When I have to fill up some filtrers
+            Then I am redirected to the Locations Search Page
+            When I fill in some filters
             And I choose "nearby" in Area 
             And Between 05/01/2017 - 10/01/2017
             And 21:00 Hrs
