@@ -1,6 +1,4 @@
 Feature: Create Public Event
-  Background: Given I have applied for organizer user
-            And I was given Organizer User's permissions
             
             As an organizer user
             I want to create a public event
