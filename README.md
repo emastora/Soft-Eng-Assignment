@@ -24,9 +24,10 @@ Make it Happen!
   
   * [Activity Diagramms](https://github.com/emastora/Soft-Eng-Assignment/tree/master/Resources/Activity%20Diagrams)
   
-4.Features
+  * [Story Boards](https://github.com/emastora/Soft-Eng-Assignment/tree/master/Resources/Story%20Boards)
+  
+4.[Features](https://github.com/emastora/Soft-Eng-Assignment/tree/master/Requirements)
 
-  *[]
 
 
 
