@@ -1,5 +1,5 @@
 # EVidENT 
-## Make it Happen!
+Make it Happen!
 
 ##Authors
 - Author 1: Μαστοράκης Εμμανουήλ
@@ -12,7 +12,11 @@
 
 ##Περιέχομενα
 
-Links to the documents you have created
+1.[Εισαγωγή](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Documentation/Intro.md)
+2.[Έγγραφο Απαιτήσεων Χρηστών] (https://github.com/emastora/Soft-Eng-Assignment/blob/master/Documentation/requirements.md)
+3. Resources
+  * [Mockups]
+
 
 
 
