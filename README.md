@@ -1,4 +1,5 @@
-# Title
+# EVidENT 
+## Make it Happen!
 
 ##Authors
 - Author 1: Μαστοράκης Εμμανουήλ
@@ -9,7 +10,7 @@
 
 (A summary of your project)
 
-##Table of Contents
+##Περιέχομενα
 
 Links to the documents you have created
 
