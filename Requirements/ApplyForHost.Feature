@@ -21,5 +21,5 @@ Feature: Apply for Host User
             Then I am redirected to My Profile settings page
             When I select the "Apply for Host User" tab
             And I don't fill in all fields of the form
-            And I select the "Submit form option"
+            And I select the "Submit form" option
             Then an error message pops up saying " You need to fill in all fields before submitting your form"
