@@ -16,7 +16,7 @@ Make it Happen!
 
 2.[Έγγραφο Απαιτήσεων Χρηστών](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Documentation/requirements.md)
 
-3. Resources
+3.Resources
 
   * [Mockups](https://github.com/emastora/Soft-Eng-Assignment/tree/master/Resources/Mockups)
   
