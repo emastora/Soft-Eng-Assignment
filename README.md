@@ -3,9 +3,9 @@
 ##Authors
 - Author 1: Μαστοράκης Εμμανουήλ
 - Author 2: Γεωργιάδης Χαράλαμπος
-- AUTHOR 3: Φωτοπουλος Χρηστος
+- Author 3: Φωτοπουλος Χρηστος
 
-##Abstract 
+##Περίληψη
 
 (A summary of your project)
 
