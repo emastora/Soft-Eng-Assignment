@@ -3,7 +3,7 @@ Feature: Set Admin Role For Event
       I want to make some of the attendants Administrators of the event i created
       So as to help me with the details or changes if they have to
 
-      Scenario: Make an attendant user Admin of the Event
+      Scenario: Make an attendant user Co-Organizer of the Event
               Given I am at Event's page
               When I choose Attendants
               Then I am redirected in Attendants list
