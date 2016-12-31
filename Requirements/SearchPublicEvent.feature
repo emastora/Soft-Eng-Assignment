@@ -7,7 +7,7 @@ Feature Search Public Events with filters
             When I hover the Events tab
             And I select Available Public Events
             Then I am redirected to the Available Public Events page
-            When I fill in the Name, Gengre, Date, City, Location
+            When I fill in the Name, Type, Date, City, Location, Cost of Ticket
             And select " Search Public Events" tab
             Then a list of public events shows up in a new page mathing my criteria 
             
