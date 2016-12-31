@@ -159,7 +159,7 @@
 
 
 #### Ιστορίες Χρηστών
-Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
+[Approve Friend Request](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/ApproveFriendRequest.feature)
 
 ### ΛΑ-12
 Ο χρήστης πρέπει να μπορεί να δηλώσει ότι θα παραβρεθεί σε κάποια δημόσια εκδήλωση. ( Αttend Public Event)
