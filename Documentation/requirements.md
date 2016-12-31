@@ -607,6 +607,7 @@
 ## Mockups and Storyboards
 
 [Mockups](https://github.com/emastora/Soft-Eng-Assignment/tree/master/Resources/Mockups)
+
 [Storyboards](https://github.com/emastora/Soft-Eng-Assignment/tree/master/Resources/Story%20Boards)
 
 ## Μη-Λειτουργικές Απαιτήσεις
