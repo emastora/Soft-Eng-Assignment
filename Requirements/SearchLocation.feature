@@ -7,7 +7,7 @@ Feature: Search Location
             Given I am in My Profile
             When I press Locations Tab
             Then I am redirected to the Locations Search Page
-            When I fill in one or more filters including Location, Type, Date, Hour, Free
+            When I fill in one or more filters including Area, Type, Date, Hour, Free
             And I press Search button
             Then I can see the locations list
             
