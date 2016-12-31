@@ -6,5 +6,5 @@ Feature: Suggest users for Friends
       Scenario: Suggest Users
               Given I am at my Home Page
               When I hover over the "Friends" Tab
-              And I select "Users Suggestions"
+              And I select "Suggestions"
               Then I can see a list of other users with same preferences with me 
