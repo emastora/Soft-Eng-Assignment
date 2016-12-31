@@ -1,4 +1,4 @@
-Feature Search Public Events with filters
+Feature: Search Public Events with filters
     As a user
     I want to search Public Events
     So as to attend to some of these
