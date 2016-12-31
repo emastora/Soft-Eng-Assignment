@@ -1,4 +1,4 @@
-Feature Suggested Locations for a new event
+Feature: Suggested Locations for a new event
   As a user
   I want to know relative locations for my event
   So as to choose the best one
