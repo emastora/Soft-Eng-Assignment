@@ -148,15 +148,15 @@
 [Delete public event](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/DeletePublicEvent.feature)
 
 ### ΛΑ-11
-Ο χρήστης πρέπει να μπορεί να βλέπει όλες τις διαθέσιμες δημόσιες εκδηλώσεις. (Available Public Events)
+Ο χρήστης πρέπει να μπορεί να εγκρίνει την προσθήκη φίλου από άλλον χρήστη. (Approve Friend Request)
 
 **Περιγραφή**
 
-Οι χρήστες θα μπορούν να βλέπουν όλες τις δημόσιες εκδηλώσεις που έχουνε καταχωρηθεί στο σύστημα από χρήστες διοργανωτές.
+Οι χρήστες θα μπορούν να εγκρινουν τις αιτήσεις φιλίας που δέχονται από άλλους χρήστες.
 
-**User Priority : (5/5)** Πολύ σημαντικό ο χρήστης να μπορεί αν βλέπει διαθέσιμες δημόσιες εκδηλώσεις που έχουν καταχωρηθεί στο σύστημα από χρήστες διοργανωτές. 
-**Technical Priority : (5/5)** 
-**Stability: (5/5)**
+**User Priority : (5/5)** Πολύ σημαντικό ο χρήστης να μπορεί να εγκρίνει ή όχι τις αιτήσεις φιλίας που δέχονται από άλλους χρήστες. 
+**Technical Priority : (5/5)** Με την έγκριση της φιλίας ο χρήστης, που την αποδέχτηκε, πρέπει να είναι σε θέση πλέον να βλέπει το ολοκληρωμένο προφίλ του χρήστη που έκανε την προσθήκη και το αντίστροφο.
+
 
 #### Ιστορίες Χρηστών
 Create here the related feature/user story based on BDD and the Gherkin syntax (https://github.com/cucumber/cucumber/wiki/Gherkin). Do that by putting a link to the relevant feature file.
