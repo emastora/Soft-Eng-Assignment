@@ -431,7 +431,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 **Technical Difficulty : (4/5)** Απαιτητική η λειτουργία αυτή καθώς πρέπει ο χρήστης να μη φαίνεται σε καμία περίπτωση στην αναζήτηση των στοιχείων του από κάποιον άλλον χρήστη.
 
 #### Ιστορίες Χρηστών
-[Hide User](https://github.com/emastora/Soft-Eng-Assignment/edit/master/Requirements/HideUser.feature)
+[Hide User](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/HideUser.feature)
 
 ### ΛΑ-31
 Ο χρήστης πρέπει να μπορεί να ζητάει να γίνει φίλος με έναν άλλον χρήστη (Add Friend)
@@ -460,7 +460,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 **Technical Difficulty : (5/5)** Ασφαλώς από τις δυσκολότερες λειτουργίες καθώς το σύστημα πρέπει να επεξεργαστεί διάφορα δεδομένα από πολλούς διαφορετικούς χρήστες έτσι ώστε οι προτεινόμενοι χρήστες να έχουν το επιθυμητό απότελεσμα όπως είναι η δημιουργία μια καινούριας φιλίας.
 
 #### Ιστορίες Χρηστών
-[Suggest Users for Friends](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/SuggestFriend.feature)
+[Suggest Users for Friends](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/SuggestUsersforFriends.feature)
 
 
 ### ΛΑ-33
@@ -475,7 +475,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 **Technical Difficulty : (5/5)** Σύνθετη λειτουργία. Πρέπει να υπάρχει σύνδεση στην βάση δεδομένων ανάμεσα στον χρήστη και στον χώρο που έχει επιλέξει να ακολουθήσει και να εμφανίζονται στον χρήστη οι εκδηλώσεις που είναι να πραγματοποιηθούν στον συγκεκριμένο χώρο.
 
 #### Ιστορίες Χρηστών
-[Follow Location](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/AddFavouriteLocation.feature)
+[Follow Location](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/FollowLocation.feature)
 
 
 ### ΛΑ-34
@@ -490,7 +490,7 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 **Technical Difficulty : (5/5)** Η δυσκολία εντοπίζεται στην αλληλεπίδραση μεταξύ δύο χρηστών και την αμεσότητα της καθώς θα πρέπει ο πάροχος χώρου να απαντάει γρήγορα και να εγκρίνει ή απορρίπτει εκδηλώσεις στον χώρο του.
 
 #### Ιστορίες Χρηστών
-[Approve Event Request](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/ApproveEvent.feature)
+[Approve Event Request](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/ApproveEventRequest.feature)
 
 
 ### ΛΑ-35
@@ -505,11 +505,11 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 **Technical Difficulty : (4/5)** Η δυσκολία εντοπίζεται στην αλληλεπίδραση δύο χρηστών όμως είναι ένα επίπεδο πιο εύκολη από την αντίστοιχη της έγκρισης καθώς αποτελεί αλληλεπίδραση μεταξύ δύο χρηστών και μόνο. Ταυτόχρονα, γίνεται και ένας αυτόματος έλεγχος, παρόμοιου επιπέδου δυσκολίας, σχετικά με τις ημερομηνίες που υπάρχουν εκδηλώσεις σε αυτό τον χώρο, και έτσι δε χρειάζεται ο χρήστης πάροχος χώρου να ελέγξει την αντίστοιχη πιθανή εμπλοκή καθώς αυτές οι ημερομηνίες δεν είναι διαθέσιμες στον χρήστη δημιουργό της εκδήλωσης που έχει επιλέξει τον συγκεκριμένο χώρο.
 
 #### Ιστορίες Χρηστών
-[Send Location Request](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/AskForApproval.feature)
+[Send Location Request](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Requirements/SendLocationRequest.feature)
 
 
 ### ΛΑ-36
-Ο χρήστης πάροχος χώρου πρέπει να μπορεί να δηλώνει μια ελάχιστη τιμή ενοικίασης του χώρου στους χρήστες διαχειριστές (Set Minimum Price for Admin) 
+Ο χρήστης πάροχος χώρου πρέπει να μπορεί να δηλώνει μια τιμή ενοικίασης του χώρου στους χρήστες διαχειριστές (Set Minimum Price for Admin) 
 
 **Περιγραφή**
 
@@ -598,15 +598,16 @@ Create here the related feature/user story based on BDD and the Gherkin syntax (
 
 ## Use case diagram
 
-Representation of all users and user stories/use cases
+[Use Case Diagram](https://github.com/emastora/Soft-Eng-Assignment/blob/master/Resources/Use%20Case%20Diagram/Use_case.jpg)
 
 ## Activity diagrams
 
-Create activity diagrams to portray the flow of basic user process in the system.
+[Activity Diagramms](https://github.com/emastora/Soft-Eng-Assignment/tree/master/Resources/Activity%20Diagrams)
 
 ## Mockups and Storyboards
 
-Put the link to the relevant storyboard.md files that display how one goes from one mockup to another.
+[Mockups](https://github.com/emastora/Soft-Eng-Assignment/tree/master/Resources/Mockups)
+[Storyboards](https://github.com/emastora/Soft-Eng-Assignment/tree/master/Resources/Story%20Boards)
 
 ## Μη-Λειτουργικές Απαιτήσεις
 
