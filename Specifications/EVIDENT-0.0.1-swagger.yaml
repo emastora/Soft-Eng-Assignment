@@ -1,0 +1,752 @@
+swagger: '2.0'
+info:
+  version: 0.0.1
+  title: EVIDENT A
+  description: API TEST
+  
+consumes: 
+  - application/json
+produces:
+  - application/json
+
+definitions:
+  user:
+    type: object
+    required:
+      - username
+      - password
+      - firstName
+      - lastName
+      - e-mail
+    properties:
+      username:
+        type: string
+        pattern: '[a-z0-9]{8,64}'
+        minLength: 8
+        maxLength: 64
+      password:
+        type: string
+        pattern: '[a-z0-9]{8,64}'
+        minLength: 8
+        maxLength: 64
+      firstName:
+        type: string
+      lastName:
+        type: string
+      e-mail:
+        type: string
+      dateOfBirth:
+        type: string
+        format: date
+      lastTimeOnline:
+        type: string
+        format: date-time
+        readOnly: true
+  newUser:
+    type: object
+    required:
+      - username
+      - password
+      - firstName
+      - lastName
+      - e-mail
+    properties:
+      username:
+        type: string
+        pattern: '[a-z0-9]{8,64}'
+        minLength: 8
+        maxLength: 64
+      password:
+        type: string
+        pattern: '[a-z0-9]{8,64}'
+        minLength: 8
+        maxLength: 64
+      firstName:
+        type: string
+      lastName:
+        type: string
+      e-mail:
+        type: string
+      dateOfBirth:
+        type: string
+        format: date
+  manyUsers:
+    type: array
+    items:
+      - $ref: "#/definitions/user"
+  #HostUser:
+   # description: Host user has his own locations
+    #allOf:
+    #- $ref: "#/definitions/user"
+    #- type: string
+     # properties:
+      #  locationsOwn:
+       #   $ref: "#/definitions/Location"
+      #required:
+       # - locationsOwn
+        
+  PersonalPreferences:
+    type: object
+    properties:
+      genre:
+        type: string
+        enum:
+          - Concert
+          - Live
+          - Conference
+          - Festival
+      LocationCityInterested:
+        type: string
+
+  favouritelocations:
+        type: array
+        items:
+          properties:
+            LocationName:
+              type: string
+            LocationDetails:
+              $ref: "#/definitions/Location"
+      
+  
+  Location:
+    type: object
+    required:
+      - id
+      - name
+      - city
+      - address
+      - price
+    properties:
+      id:
+        type: integer
+        format: int64
+      name:
+        type: string
+      city:
+        type: string
+      address:
+        type: string
+      price:
+        description: Minimum price for rent
+        type: integer
+  newLocation:
+    type: object
+    required:
+      - name
+      - city
+      - address
+    properties:
+      name:
+        type: string
+      city:
+        type: string
+      address:
+        type: string
+  Event:
+    type: object
+    required:
+      - id
+      - Privacy
+      - Title
+      - Location
+      - Date
+      - Genre
+    properties:
+      id:
+        type: integer
+      Privacy:
+        type: string
+      Title:
+        type: string
+      Description:
+        type: string
+      Location:
+        $ref: "#/definitions/Location"
+      Date:
+        type: string
+        format: date-time
+      Genre:
+        type: string
+        
+  newEvent:
+    type: object
+    required:
+      - Privacy
+      - Title
+      - Location
+      - Date
+      - Genre
+    properties:
+      Privacy:
+        type: string
+        enum:
+          - Private
+          - Public
+        default: Private
+      Title:
+        type: string
+      Description:
+        type: string
+      Location:
+        $ref: "#/definitions/Location"
+      Date:
+        type: string
+        format: date-time
+      Genre:
+        type: string
+      
+  Feedback:
+    type: object
+    required:
+      - username
+      - FeedbackField
+    properties:
+      username:
+        description: Username of the user who writes the feedback
+        type: string
+      FeedbackField:
+        type: string
+        
+
+
+parameters:
+  username:
+    name: username
+    in: path
+    required: true
+    description: The person's username
+    type: string
+  pageSize:
+    name: pageSize
+    in: query
+    description: Number of asked returned
+    type: integer
+  pageNumber:
+    name: pageNumber
+    in: query
+    description: Page number
+    type: integer
+  #PersonalPreferences:
+   # name: sortPref
+    #in: query
+    #type: array
+    #uniqueItems: true
+    #collectionFormat: pipes
+    #items:
+     # type: string
+    
+
+    
+    
+paths: 
+  /users:
+    get:
+      description: Gets all the users
+      parameters:
+        - name: username
+          in: query
+          required: false
+          type: string
+        - name: lastName
+          in: query
+          required: false
+          type: string
+      responses:
+        200:
+          description: Users retrieved
+          schema:
+            type: array
+            items:
+              $ref: "#/definitions/user"
+        404:
+          description: No user found!
+    post:
+      description: Create a new user
+      operationId: addUser
+      parameters:
+        - name: user
+          in: body
+          required: true
+          description: New user
+          schema:
+            $ref: '#/definitions/newUser'
+      responses:
+        201:
+          description: User created
+        405:
+          description: You need to fill in all the fields
+          schema:
+            $ref: "#/definitions/newUser"
+
+  /users/{username}:
+    parameters:
+      - name: username
+        in: path
+        required: true
+        type: string
+    get:
+      description: Get a user with *username*
+      responses:
+        200:
+          description: User succesfully found
+          schema:
+            $ref: "#/definitions/user"
+        404:
+          description:  User not found
+    delete:
+      description: Delete a user with *username*
+      responses:
+        200:
+          description: User deleted
+    put:
+      description: Update a user with *username*
+      operationId: UpdateUser
+      parameters:
+        - name: userUpdate
+          in: body
+          required: true
+          description: Updates user
+          schema:
+            $ref: "#/definitions/newUser"
+      responses:
+        200:
+          description: User updated
+          schema:
+            $ref: "#/definitions/user"
+        404:
+          description: User not found
+  /users/{username}/friendlist:
+    parameters:
+      - $ref: "#/parameters/username"
+    get:
+      description: Returns a list with friends of the user with *username*
+      parameters:
+        - $ref: "#/parameters/pageSize"
+        - $ref: "#/parameters/pageNumber"
+      responses:
+        200:
+          description: A user's friend list
+          schema: 
+            $ref: "#/definitions/manyUsers"
+        404:
+          description: User has no friends
+    post:
+      description: Add a new friend
+      operationId: AddNewFriend
+      
+      parameters:
+        - name: friendlist
+          in: body
+          required: true
+          description: The list of friends with *username*
+          schema: 
+            $ref: "#/definitions/manyUsers"
+      responses:
+        200:
+          description: A new user in user's friendlist
+          schema:
+            $ref: "#/definitions/manyUsers"
+        406:
+          description: The other user didn't accept friend request
+          
+  /users/{username}/MyPreferences:
+    parameters:
+      - $ref: "#/parameters/username"
+    get:
+      description: Returns a list with personal perferences of the user
+      responses:
+        200:
+          description: User's preferences retrieved
+          schema:
+            $ref: "#/definitions/PersonalPreferences"
+        404:
+          description: User has not got any Personal Perferences
+    post:
+      description: Add some preferences in user with *username*
+      parameters:
+        - name: MyPreferences
+          in: body
+          required: true
+          description: Add preferences
+          schema:
+            $ref: '#/definitions/PersonalPreferences'
+      responses:
+        201:
+          description: New preferencers added
+          schema:
+            $ref: "#/definitions/PersonalPreferences"
+        405:
+          description: You need to fill at least one of the fields
+          schema:
+            $ref: "#/definitions/PersonalPreferences"
+    put:
+      description: Update preferences
+      operationId: UpdatePeferences
+      parameters:
+        - name: UpdatingPreferences
+          in: body
+          required: true
+          schema:
+            $ref: "#/definitions/PersonalPreferences"
+      responses:
+        200:
+          description: Preferences updated
+          schema:
+            $ref: "#/definitions/PersonalPreferences"
+          
+    
+      
+  /users/{username}/FavouriteLocations:
+    parameters:
+      - $ref: "#/parameters/username"
+    get:
+      description: Returns a list with locations a user follows
+      parameters:
+        - $ref: "#/parameters/pageSize"
+        - $ref: "#/parameters/pageNumber"
+      responses:
+        200:
+          description: A user's favourite locations
+          schema: 
+            $ref: "#/definitions/favouritelocations"
+        404:
+          description: User doesnt have any favourite location
+    post:
+      description: Add a new favourite location
+      operationId: FollowNewLocation
+      parameters:
+        - name: NewFavouriteLocation
+          in: body
+          required: true
+          schema:
+              $ref: "#/definitions/favouritelocations"
+      responses:
+        201:
+          description: Follow location succeded
+      
+  /users/{username}/ArchivedEvents:
+    parameters:
+      - $ref: "#/parameters/username"
+    get:
+      description: User can search his archived events
+      parameters:
+        - name: _date
+          in: query
+          required: false
+          type: string
+          format: date
+        - name: _location
+          in: query
+          required: false
+          type: string
+        - name: _eventName
+          in: query
+          required: false
+          type: string
+      responses:
+        200:
+          description: All past events retrieved
+          schema:
+            $ref: "#/definitions/Event"
+        404:
+          description: No past events
+            
+  /users/{username}/HostUser/ownLocation:
+    parameters:
+      - $ref: "#/parameters/username"
+    get:
+      description: Returns the list of locations the host user has
+      responses:
+        200:
+          description: The list of my location
+          schema:
+            type: array
+            items:
+              - $ref: "/definitions/Location"
+        404:
+          description: Host hasnt got any locations yet
+    post:
+      description: Insert a new location from Host
+      operationId: insertOwnLocation
+      parameters:
+        - name: location
+          in: body
+          required: true
+          description: Location to add to the Host's list
+          schema:
+            $ref: "#/definitions/newLocation"
+      responses:
+        201:
+          description: Location added
+        405:
+          description: You need to fill in all fields in order to save a new location
+          schema:
+            $ref: "#/definitions/newLocation"
+        406:
+          description: Location already exists
+          
+  /users/{username}/Organiser/PublicEvents:
+    parameters:
+      - name: username
+        in: path
+        required: true
+        description: Organiser's username *username*
+        type: string
+    get:
+      parameters:
+       - name: Privacy
+         in: query
+         required: true
+         type: string
+         enum:
+          - Public
+       - name: _date
+         in: query
+         required: false
+         type: string
+         format: date
+       - name: _location
+         in: query
+         required: false
+         type: string
+       - name: _eventName
+         in: query
+         required: false
+         type: string 
+      description: Searching all the Public Events of the Organiser
+      responses:
+        203:
+          description: Organiser's Public Events
+          schema:
+            type: array
+            items:
+              $ref: "#/definitions/Event"
+        404:
+          description: Organizer has not got any Public events
+  
+      
+  /events:
+    get: 
+      description: Get all events 
+      responses:
+        200:
+          description: All events
+          schema:
+            $ref: "#/definitions/Event"
+    post:
+      description: Create a new Event
+      operationId: addEvent
+      parameters:
+        - name: Event
+          in: body
+          required: true
+          description: New Event
+          schema:
+            $ref: "#/definitions/newEvent"
+      responses:
+        201:
+          description: Event created
+          schema:
+            $ref: "/definitions/Event"  
+  /events:
+    parameters:
+       - name: _dateSearch
+         in: query
+         required: false
+         type: string
+         format: date
+       - name: _locationSearch
+         in: query
+         required: true
+         type: string
+    get:
+      description: Search Events by dateSearch or locationSearch
+      responses:
+        200:
+          description: Events in this date or location
+          schema:
+            $ref: "#/definitions/Event"
+        414:
+          description: No events at this date or location
+  /events/{eid}:
+    parameters:
+      - name: eid
+        in: path
+        required: true
+        type: string
+    get:
+      description: Find event by *eid*
+      responses:
+        200:
+          description: Events retrieved
+          schema:
+            $ref: "#/definitions/Event"
+    delete:
+      description: Delete an event with *eid*
+      responses:
+        200:
+          description: Event deleted
+        404:
+          description: Event not found
+    put:
+      description: Update an Event with *eid*
+      operationId: updateEvent
+      responses:
+        200:
+          description: Event succesfully updated
+          schema:
+            $ref: "#/definitions/Event"
+        404:
+          description: Event not found
+          
+  /events/{eid}/Feedback:
+    parameters:
+      - name: eid
+        in: path
+        required: true
+        type: string
+    get:
+      description: Get all Feedbacks of a *eid*
+      responses:
+        200:
+          description: Feedback retrieved
+          schema:
+            type: array
+            items:
+              $ref: "#/definitions/Feedback"
+    delete:
+      description: Delete a non appropriate Feedback in a specific event *eid*
+      responses:
+        200:
+          description: Feedback deleted
+        404:
+          description: Feedback not found
+    put:
+      description: Update a Feedback of an Event with *eid*
+      operationId: updateFeedbackEvent
+      responses:
+        200:
+          description: Feedback succesfully updated
+          schema:
+            $ref: "#/definitions/Feedback"
+        404:
+          description: Event not found!
+
+  /locations:
+    get:
+      description: Get all locations
+      parameters:
+        - name: _sort
+          in: query
+          required: false
+          type: string
+      responses:
+        202:
+          description: Locations succesfully retrieved
+          schema:
+            type: array
+            items:
+              $ref: "#/definitions/Location"
+    post:
+      description: Create a new location
+      operationId: insertLocation
+      parameters:
+        - name: location
+          in: body
+          required: true
+          description: Location to add to the list
+          schema:
+            $ref: "#/definitions/newLocation"
+      responses:
+        201:
+          description: Location added
+        405:
+          description: You need to fill in all fields in order to save a new location
+  /locations/{lID}:
+    parameters:
+      - name: lID
+        in: path
+        required: true
+        type: integer
+        format: int64
+    get:
+      description: Get a location with *lID*
+      responses:
+        200:
+          description: Location succesfully retrieved
+          schema:
+            $ref: "#/definitions/Location"
+        404:
+          description: Location not found
+    put:
+      description: Update a location with {lID}
+      operationId: UpdateLocation
+      parameters:
+        - name: Location
+          in: body
+          required: true
+          description: Updates location
+          schema:
+            $ref: "#/definitions/newLocation"
+      responses:
+        200:
+          description: Location
+          schema:
+            $ref: "#/definitions/Location"
+    delete:
+      description: Delete a Location with *lID*
+      operationId: DeleteLocation
+      responses:
+        200:
+          description: Location deleted
+          schema:
+            $ref: "#/definitions/Location"
+        404:
+          description: Location not found
+  
+  /locations/{lID}/Feedback:
+    parameters:
+      - name: lID
+        in: path
+        required: true
+        type: integer
+        format: int64
+    get:
+      description: Get all the feedbacks for the location with the specific *lID*
+      responses:
+        200:
+          description: Feedbacks succesfully retrieved
+          schema:
+            type: array
+            items:
+              $ref: "#/definitions/Feedback"
+        404:
+          description: No feedback found
+    delete:
+      description: Delete a non appropriate Feedback in a specific location with *lID*
+      responses:
+        200:
+          description: Feedback deleted
+        404:
+          description: Feedback not found
+    put:
+      description: Update a Feedback of a location with *lID*
+      operationId: updateFeedbackLocation
+      responses:
+        200:
+          description: Feedback succesfully updated
+          schema:
+            $ref: "#/definitions/Feedback"
+        404:
+          description: Location not found!
+            
+          
+        
+    
+  
+# Added by API Auto Mocking Plugin
+host: virtserver.swaggerhub.com
+basePath: /mourinio/EVIDENT/0.0.1
+schemes:
+ - https
+ - http
